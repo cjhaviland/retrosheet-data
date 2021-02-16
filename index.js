@@ -1,18 +1,12 @@
-//BEVENT.EXE -y 2020 -f 0-6,8-9,12-13,16-17,26-40,43-45,51,58-61,66-68
+// Step 1 - Run bevent.bat
 
-//gameId,visitingTeam,inning,battingTeam,outs,balls,strikes,visScore,homeScore,resBatter,resBatterHand,resPitcher,resPitcherHand,firstRunner,secondRunner,thirdRunner,eventText,leadoffFlag,pinchhitFlag,defensivePosition,lineupPosition,eventType,batterEventFlag,abFlag,hitValue,SHFlag,SFFlag,outsOnPlay,rbiOnPlay,wildPitchFlag,passedBallFlag,numErrors,batterDest,runnerOn1stDest,runnerOn2ndDest,runnerOn3rdDest,sbForRunnerOn1stFlag,sbForRunneron2ndFlag,sbForRunnerOn3rdFlag
+// Step 2 - Sanitize the TXT Files
+// const sanitizeTxtFiles = require('./sanitizeTxtFiles')
+// sanitizeTxtFiles()
 
-const execBevent = require('./execBevent')
-execBevent()
-
-const sanitizeTxtFiles = require('./sanitizeTxtFiles')
-sanitizeTxtFiles()
-
-// let fileInputName = 'Output/2020ANA.txt'
-// let fileOutputName = 'data/2020ANA.json'
-
-// const csvConvert = require('./csvConvert')
-// csvConvert(fileInputName, fileOutputName)
+// Step 3 - Convert to JSON
+const csvConvert = require('./csvConvert')
+csvConvert()
 
 // const fs = require('fs')
 // const _ = require('lodash')
