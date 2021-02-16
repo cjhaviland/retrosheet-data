@@ -1,0 +1,1316 @@
+     Game of 7/28/2020 -- Seattle at Anaheim (N)
+
+  Seattle            AB  R  H RBI    Anaheim            AB  R  H RBI  
+Long S, 2b            4  0  0  1   Fletcher D, ss        3  1  2  0   
+White E, 1b           3  0  0  0   Trout M, cf           5  1  1  0   
+Lewis K, cf           4  0  2  0   Rendon A, 3b          3  2  1  2   
+Seager K, 3b          4  0  0  0   Thaiss M, 3b          0  0  0  0   
+Marmolejos J, lf      0  0  0  0   Upton J, lf           4  0  1  2   
+Lopes T, dh           4  1  2  1   Hermosillo M, lf      0  0  0  0   
+Crawford J, ss        4  0  1  0   Ohtani S, dh          5  0  1  1   
+Moore D, lf-3b        4  1  2  0   Pujols A, 1b          4  2  2  1   
+Smith M, rf           4  0  0  0   Walsh J, pr-1b        0  0  0  0   
+Odom J, c             2  0  0  0   La Stella T, 2b       2  2  0  0   
+Vogelbach D, ph       1  0  0  0   Rengifo L, 2b         0  0  0  0   
+                                   Stassi M, c           3  1  1  3   
+                                   Ward T, rf            4  1  2  1   
+                     -- -- -- --                        -- -- -- --
+                     34  2  7  2                        33 10 11 10   
+
+Seattle          000 110 000 --  2
+Anaheim          002 312 02x -- 10
+
+  Seattle              IP  H  R ER BB SO
+Sheffield J (L)*      3.0  4  4  4  4  2
+Cortes N              2.0  3  2  2  1  1
+Grotz Z               3.0  4  4  4  3  2
+
+  Anaheim              IP  H  R ER BB SO
+Sandoval P+           4.0  4  2  1  1  4
+Ramirez N             1.0  0  0  0  1  1
+Buchter R (W)         1.0  0  0  0  0  1
+Mayers M              1.0  0  0  0  0  2
+Barnes J              1.0  1  0  0  0  0
+Middleton K           1.0  2  0  0  0  3
+  * Pitched to 2 batters in 4th
+  + Pitched to 2 batters in 5th
+
+E -- Lewis K, La Stella T, White E, Rendon A
+DP -- Seattle 1, Anaheim 2
+LOB -- Seattle 7, Anaheim 9
+2B -- Moore D, Ohtani S
+HR -- Lopes T, Stassi M, Pujols A, Rendon A
+SB -- Smith M
+SF -- Upton J
+HBP -- by Cortes N (La Stella T)
+WP -- Grotz Z
+PB -- Odom J
+T -- 3:15
+A -- 0
+     Game of 7/29/2020 -- Seattle at Anaheim (N)
+
+  Seattle            AB  R  H RBI    Anaheim            AB  R  H RBI  
+Crawford J, ss        3  2  2  2   Fletcher D, ss        5  0  0  0   
+White E, 1b           4  1  0  0   Trout M, cf           5  1  3  0   
+Lewis K, cf           5  1  3  1   Rendon A, 3b          3  1  0  0   
+Seager K, 3b          4  1  3  3   Ohtani S, dh          5  1  1  3   
+Lopes T, rf           4  1  1  1   Upton J, lf           3  1  1  1   
+Hudson J, c           1  0  0  0   La Stella T, 2b       4  0  1  0   
+Marmolejos J, dh      5  0  0  0   Walsh J, 1b           3  1  0  0   
+Moore D, lf-rf        5  1  2  3   Ward T, ph-1b         1  0  0  0   
+Gordon D, 2b-lf       3  1  1  0   Castro J, c           2  1  0  0   
+Odom J, c             2  0  0  0   Stassi M, ph-c        0  0  0  0   
+Long S, ph-2b         1  2  1  0   Goodwin B, rf         4  1  2  3   
+                     -- -- -- --                        -- -- -- --
+                     37 10 13 10                        35  7  8  7   
+
+Seattle          000 105 220 -- 10
+Anaheim          000 313 000 --  7
+
+  Seattle              IP  H  R ER BB SO
+Dunn J*               3.0  1  3  2  3  2
+Margevicius N         2.0  2  1  1  0  1
+Shaw B (W)            1.0  3  3  3  1  1
+Williams T            1.0  1  0  0  0  1
+Misiewicz A           1.0  0  0  0  1  2
+Altavilla D (S)       1.0  1  0  0  0  1
+
+  Anaheim              IP  H  R ER BB SO
+Heaney A+             5.0  5  2  2  1  6
+Mayers M              0.2  4  4  4  0  1
+Milner H              0.1  0  0  0  0  0
+Barnes J (L)#         0.0  1  2  2  2  0
+Buttrey T             1.2  0  1  1  1  1
+Buchter R             0.1  1  1  0  1  0
+Bard L                1.0  2  0  0  0  1
+  * Pitched to 4 batters in 4th
+  + Pitched to 1 batter in 6th
+  # Pitched to 3 batters in 7th
+
+E -- Crawford J
+DP -- Seattle 1
+LOB -- Seattle 6, Anaheim 6
+2B -- Gordon D, Lopes T, Goodwin B, Trout M
+HR -- Ohtani S, Goodwin B, Moore D, Upton J
+SB -- Seager K
+CS -- Moore D, Gordon D
+SF -- Seager K
+Balk -- Williams T, Bard L
+PB -- Castro J
+T -- 3:47
+A -- 0
+     Game of 7/30/2020 -- Seattle at Anaheim (N)
+
+  Seattle            AB  R  H RBI    Anaheim            AB  R  H RBI  
+Crawford J, ss        5  2  2  2   Fletcher D, ss        4  0  0  0   
+Lopes T, lf           5  1  1  0   Goodwin B, cf         4  1  2  0   
+Lewis K, cf           5  0  2  2   Rendon A, 3b          3  1  0  0   
+Seager K, 3b          4  1  0  0   Upton J, lf           4  0  1  0   
+Marmolejos J, 1b      3  1  1  3   Ohtani S, dh          4  1  1  3   
+White E, ph-1b        2  0  0  0   Pujols A, 1b          4  0  0  0   
+Long S, 2b            4  1  2  1   Ward T, rf            3  1  0  0   
+Vogelbach D, dh       3  0  1  0   Stassi M, c           3  1  1  2   
+Gordon D, pr          0  1  0  0   Rengifo L, 2b         3  0  0  0   
+Smith M, rf           2  1  0  0   
+Hudson J, c           2  0  1  0   
+                     -- -- -- --                        -- -- -- --
+                     35  8 10  8                        32  5  5  5   
+
+Seattle          300 000 005 --  8
+Anaheim          000 020 003 --  5
+
+  Seattle              IP  H  R ER BB SO
+Gonzales M (W)        6.1  3  2  0  1  6
+Edwards C             0.2  0  0  0  0  1
+Magill M              1.0  0  0  0  0  0
+Altavilla D           1.0  2  3  3  1  1
+
+  Anaheim              IP  H  R ER BB SO
+Bundy D (L)           6.0  4  3  3  2  8
+Pena F                1.1  2  0  0  1  1
+Milner H              0.2  0  0  0  0  1
+Robles H              0.1  2  4  4  2  0
+Keller K              0.2  2  1  1  0  1
+
+E -- Long S
+DP -- Seattle 1
+LOB -- Seattle 6, Anaheim 2
+2B -- Long S, Goodwin B
+HR -- Marmolejos J, Stassi M, Long S, Ohtani S
+SB -- Crawford J 2, Ohtani S, Lopes T
+SH -- Hudson J
+T -- 2:59
+A -- 0
+     Game of 7/31/2020 -- Houston at Anaheim (N)
+
+  Houston            AB  R  H RBI    Anaheim            AB  R  H RBI  
+Springer G, cf-rf     4  0  2  2   Fletcher D, ss-rf     3  3  2  1   
+Altuve J, 2b          4  0  0  2   Goodwin B, rf-cf      3  1  2  3   
+Bregman A, 3b         5  1  1  0   Rendon A, 3b          3  0  1  1   
+Brantley M, dh        4  2  1  0   Ohtani S, dh          4  1  0  0   
+Gurriel Y, 1b         4  2  1  1   Upton J, lf           4  0  0  0   
+Correa C, ss          4  0  1  0   La Stella T, 1b-2b    3  0  1  0   
+Reddick J, rf         3  1  1  0   Rengifo L, 2b-ss      4  0  1  0   
+Straw M, ph-cf        2  1  1  0   Castro J, c           4  1  1  0   
+Tucker K, lf          5  2  3  4   Hermosillo M, cf      2  0  0  0   
+Maldonado M, c        2  0  0  0   Walsh J, ph-1b        3  0  0  0   
+                     -- -- -- --                        -- -- -- --
+                     37  9 11  9                        33  6  8  5   
+
+Houston          040 110 201 --  9
+Anaheim          001 300 110 --  6
+
+  Houston              IP  H  R ER BB SO
+McCullers L           4.0  6  4  4  4  4
+Bielak B (W)          2.0  0  0  0  3  2
+Abreu B               0.1  0  1  0  2  1
+Paredes E             1.2  1  1  1  2  1
+Scrubb A (S)          1.0  1  0  0  1  1
+
+  Anaheim              IP  H  R ER BB SO
+Andriese M (L)        1.2  4  4  4  3  1
+Bedrosian C           1.2  1  1  1  0  1
+Middleton K           1.0  3  1  1  0  0
+Buchter R             0.2  0  0  0  0  0
+Ramirez N             1.0  0  0  0  0  1
+Mayers M              0.1  0  2  0  1  1
+Milner H              0.1  1  0  0  1  1
+Keller K              1.2  1  1  1  2  0
+Barnes J              0.2  1  0  0  0  0
+
+E -- Rengifo L, Fletcher D, Altuve J, La Stella T
+DP -- Houston 3, Anaheim 1
+LOB -- Houston 12, Anaheim 12
+2B -- Tucker K, Rengifo L, Castro J, Fletcher D, Bregman A, Correa C
+3B -- Goodwin B
+HR -- Goodwin B
+SB -- Tucker K
+CS -- Altuve J
+SF -- Springer G, Gurriel Y
+HBP -- by Andriese M (Bregman A), by Ramirez N (Altuve J)
+WP -- Bedrosian C, Keller K
+T -- 4:21
+A -- 0
+     Game of 8/1/2020 -- Houston at Anaheim (D)
+
+  Houston            AB  R  H RBI    Anaheim            AB  R  H RBI  
+Springer G, cf        4  1  2  3   Fletcher D, ss        3  0  1  1   
+Altuve J, 2b          5  0  2  0   Goodwin B, cf         5  0  1  1   
+Bregman A, 3b         4  0  1  0   Rendon A, 3b          4  0  1  1   
+Tucker K, lf          4  0  0  0   Upton J, lf           3  0  0  0   
+Gurriel Y, 1b         5  0  2  0   Hermosillo M, lf      1  0  0  1   
+Correa C, ss          5  0  0  0   Pujols A, dh          4  0  0  0   
+Reddick J, rf         4  2  2  1   Rengifo L, 2b         4  1  2  0   
+Toro A, dh            5  0  0  0   Castro J, c           4  0  1  1   
+Maldonado M, c        2  0  1  0   Walsh J, pr           0  0  0  0   
+Brantley M, ph        1  0  0  0   Stassi M, c           0  0  0  0   
+Stubbs G, c           1  0  1  0   Ward T, rf            4  2  2  0   
+Straw M, pr           0  1  0  0   Thaiss M, 1b          4  2  1  0   
+Garneau D, c          0  0  0  0   
+                     -- -- -- --                        -- -- -- --
+                     40  4 11  4                        36  5  9  5   
+
+Houston          000 000 103 0 --  4
+Anaheim          000 002 011 1 --  5
+  2 outs when winning run was scored.
+
+  Houston              IP  H  R ER BB SO
+Greinke Z             5.2  3  2  2  0  4
+Taylor B              1.1  1  0  0  0  2
+Pressly R             0.2  2  1  1  1  1
+Bailey B              0.1  0  0  0  0  0
+Osuna R               0.1  1  1  1  0  0
+Sneed C               0.2  1  0  0  0  1
+Rodriguez N (L)       0.2  1  1  0  1  1
+
+  Anaheim              IP  H  R ER BB SO
+Canning G*            6.0  6  1  1  2  5
+Pena F                2.0  1  0  0  0  3
+Robles H              1.0  4  3  3  0  1
+Ramirez N             0.2  0  0  0  1  1
+Buchter R (W)         0.1  0  0  0  1  1
+  * Pitched to 1 batter in 7th
+
+E -- Fletcher D, Rendon A
+DP -- Anaheim 1
+LOB -- Houston 11, Anaheim 7
+2B -- Reddick J, Castro J
+3B -- Ward T
+HR -- Reddick J, Springer G
+SB -- Straw M
+SF -- Fletcher D, Hermosillo M
+WP -- Canning G, Sneed C
+T -- 3:58
+A -- 0
+     Game of 8/2/2020 -- Houston at Anaheim (D)
+
+  Houston            AB  R  H RBI    Anaheim            AB  R  H RBI  
+Springer G, cf        4  1  1  1   Fletcher D, ss        5  1  1  0   
+Altuve J, 2b          6  0  0  0   Rengifo L, 2b         5  0  0  0   
+Bregman A, 3b         6  1  2  2   Rendon A, 3b          4  1  1  0   
+Brantley M, dh        4  1  3  0   Upton J, lf           3  1  0  0   
+Straw M, pr           1  1  0  0   Hermosillo M, lf      1  0  1  1   
+Gurriel Y, 1b         4  1  1  0   Goodwin B, cf         5  1  0  0   
+Reddick J, rf         3  0  1  1   Pujols A, dh          4  1  1  4   
+Tucker K, lf          5  1  0  0   Walsh J, pr           0  0  0  0   
+Mayfield J, ss        3  0  1  0   Ward T, rf            3  0  0  0   
+Correa C, ph-ss       2  0  1  0   Stassi M, c           5  0  1  0   
+Garneau D, c          2  0  1  1   Thaiss M, 1b          4  0  1  0   
+Toro A, ph            1  0  0  0   
+Stubbs G, c           0  0  0  1   
+                     -- -- -- --                        -- -- -- --
+                     41  6 11  6                        39  5  6  5   
+
+Houston          020 000 101 11 --  6
+Anaheim          004 000 000 10 --  5
+
+  Houston              IP  H  R ER BB SO
+James J               3.0  1  4  4  6  4
+Valdez F              6.1  5  1  0  1  8
+Scrubb A              0.1  0  0  0  2  0
+Taylor B (W)          1.1  0  0  0  2  2
+
+  Anaheim              IP  H  R ER BB SO
+Ohtani S              1.2  0  2  2  5  3
+Rodriguez J           1.2  2  0  0  1  0
+Bedrosian C*          0.2  1  0  0  2  1
+Milner H              1.0  0  0  0  0  0
+Middleton K           1.1  3  1  1  0  2
+Mayers M              1.0  1  0  0  0  1
+Buttrey T             1.2  3  1  1  0  0
+Barnes J (L)          2.0  1  2  0  0  2
+  * Pitched to 2 batters in 5th
+
+DP -- Anaheim 1
+LOB -- Houston 13, Anaheim 14
+2B -- Rendon A, Gurriel Y, Brantley M
+HR -- Pujols A, Bregman A
+SB -- Fletcher D, Hermosillo M
+SF -- Stubbs G
+WP -- James J, Ohtani S
+T -- 4:37
+A -- 0
+     Game of 8/10/2020 -- Oakland at Anaheim (N)
+
+  Oakland            AB  R  H RBI    Anaheim            AB  R  H RBI  
+Semien M, ss          4  0  0  0   Fletcher D, ss        4  1  1  0   
+Laureano R, cf        3  1  0  0   La Stella T, 2b       5  1  2  0   
+Olson M, 1b           3  2  0  0   Rengifo L, 2b         0  0  0  0   
+Chapman M, 3b         5  3  3  6   Trout M, cf           5  4  4  3   
+Canha M, dh           4  1  2  0   Rendon A, 3b          3  3  2  2   
+Barreto F, pr         0  0  0  0   Ohtani S, dh          4  1  2  2   
+Grossman R, lf        3  0  1  0   Pujols A, 1b          4  0  0  1   
+Piscotty S, rf        5  1  1  1   Upton J, lf           3  0  1  1   
+Pinder C, 2b          4  0  1  0   Goodwin B, lf         0  0  0  0   
+Murphy S, c           4  1  1  0   Stassi M, c           3  0  0  0   
+                                   Adell J, rf           4  0  2  0   
+                     -- -- -- --                        -- -- -- --
+                     35  9  9  7                        35 10 14  9   
+
+Oakland          032 400 000 --  9
+Anaheim          301 302 01x -- 10
+
+  Oakland              IP  H  R ER BB SO
+Manaea S              2.2  7  4  4  3  1
+Wendelken J           0.2  2  3  3  2  2
+McFarland T           1.2  2  0  0  1  0
+Trivino L             2.0  2  2  2  0  2
+Petit Y (L)           1.0  1  1  1  0  0
+
+  Anaheim              IP  H  R ER BB SO
+Teheran J*            2.0  5  5  5  2  1
+Andriese M            2.0  2  4  3  2  3
+Ramirez N             1.2  1  0  0  2  0
+Middleton K           1.1  0  0  0  1  1
+Pena F (W)            1.0  0  0  0  0  0
+Buttrey T (S)         1.0  1  0  0  0  2
+  * Pitched to 3 batters in 3rd
+
+E -- Upton J
+DP -- Oakland 2, Anaheim 3
+LOB -- Oakland 7, Anaheim 7
+2B -- La Stella T, Ohtani S
+3B -- Chapman M
+HR -- Rendon A, Chapman M 2, Trout M 2, Ohtani S
+SB -- Grossman R
+HBP -- by Teheran J (Canha M)
+WP -- Manaea S, Teheran J
+PB -- Stassi M
+T -- 3:41
+A -- 0
+     Game of 8/11/2020 -- Oakland at Anaheim (N)
+
+  Oakland            AB  R  H RBI    Anaheim            AB  R  H RBI  
+Semien M, ss          3  0  1  0   Fletcher D, ss        5  1  1  1   
+Barreto F, ss         0  0  0  0   La Stella T, 2b       2  0  1  0   
+Laureano R, cf        3  0  1  0   Rengifo L, 2b         1  0  0  0   
+Olson M, 1b           4  0  0  0   Trout M, cf           5  0  1  0   
+Pinder C, rf          0  0  0  0   Rendon A, 3b          4  1  2  1   
+Chapman M, 3b         3  0  0  0   Ohtani S, dh          4  1  2  0   
+Machin V, 3b          1  0  0  0   Pujols A, 1b          4  1  2  0   
+Canha M, rf-1b        4  0  0  0   Castro J, c           3  1  2  3   
+Grossman R, lf        3  0  2  0   Upton J, lf           4  0  0  0   
+Davis K, dh           4  0  0  0   Ward T, lf            0  0  0  0   
+Kemp T, 2b            3  0  1  0   Goodwin B, rf         4  1  1  1   
+Allen A, c            3  0  0  0   
+                     -- -- -- --                        -- -- -- --
+                     31  0  5  0                        36  6 12  6   
+
+Oakland          000 000 000 --  0
+Anaheim          000 501 00x --  6
+
+  Oakland              IP  H  R ER BB SO
+Fiers M (L)           3.2  7  5  5  2  2
+Mengden D             3.1  5  1  1  2  2
+Trivino L             1.0  0  0  0  1  2
+
+  Anaheim              IP  H  R ER BB SO
+Bundy D (W)           7.0  4  0  0  1 10
+Mayers M              1.0  0  0  0  1  2
+Robles H              1.0  1  0  0  0  1
+
+DP -- Anaheim 1
+LOB -- Oakland 7, Anaheim 11
+2B -- Grossman R, Castro J
+HR -- Rendon A, Castro J, Goodwin B, Fletcher D
+SB -- Semien M, Ohtani S
+HBP -- by Bundy D (Laureano R)
+WP -- Bundy D
+T -- 2:56
+A -- 0
+     Game of 8/12/2020 -- Oakland at Anaheim (D)
+
+  Oakland            AB  R  H RBI    Anaheim            AB  R  H RBI  
+Semien M, ss          4  1  1  1   Fletcher D, ss        4  1  1  0   
+Laureano R, cf        5  0  1  2   La Stella T, 2b       4  0  1  1   
+Olson M, 1b           5  1  1  1   Trout M, cf           2  1  1  2   
+Chapman M, 3b         5  0  2  1   Rendon A, 3b          4  1  1  1   
+Canha M, dh           5  1  1  0   Ohtani S, dh          3  0  0  0   
+Grossman R, lf        3  2  1  2   Pujols A, 1b          4  0  0  0   
+Piscotty S, rf        3  1  1  1   Castro J, c           4  0  0  0   
+Kemp T, 2b            2  0  0  0   Adell J, rf           3  0  0  0   
+Pinder C, ph-2b       2  1  0  0   Goodwin B, lf         3  1  1  0   
+Murphy S, c           2  1  1  0   
+                     -- -- -- --                        -- -- -- --
+                     36  8  9  8                        31  4  5  4   
+
+Oakland          120 110 030 --  8
+Anaheim          102 001 000 --  4
+
+  Oakland              IP  H  R ER BB SO
+Bassitt C (W)         5.2  5  4  4  0  4
+Diekman J             0.2  0  0  0  1  2
+Petit Y               0.2  0  0  0  0  0
+Soria J               1.0  0  0  0  1  1
+Hendriks L            1.0  0  0  0  0  2
+
+  Anaheim              IP  H  R ER BB SO
+Canning G (L)         4.0  6  4  4  0  2
+Barnes J              1.0  2  1  1  0  1
+Buchter R             0.2  0  0  0  1  1
+Ramirez N             0.1  0  0  0  1  0
+Pena F                1.1  0  1  1  1  1
+Middleton K           0.1  0  2  2  2  0
+Buttrey T             0.1  1  0  0  1  0
+Robles H              1.0  0  0  0  0  3
+
+LOB -- Oakland 7, Anaheim 3
+2B -- Canha M, Chapman M 2, Goodwin B, Semien M
+HR -- Olson M, Trout M, Grossman R, Piscotty S, Rendon A
+SB -- Grossman R
+SF -- Trout M
+T -- 3:20
+A -- 0
+     Game of 8/14/2020 -- Los Angeles at Anaheim (N)
+
+  Los Angeles        AB  R  H RBI    Anaheim            AB  R  H RBI  
+Betts M, rf           4  0  0  0   Fletcher D, ss        4  0  1  0   
+Seager C, ss          5  1  0  1   La Stella T, 2b       4  0  1  2   
+Turner J, 3b          3  1  2  1   Trout M, cf           4  0  0  0   
+Pollock A, lf         4  1  1  1   Rendon A, 3b          2  1  1  1   
+Bellinger C, cf       4  2  2  4   Ohtani S, dh          4  1  1  0   
+Taylor C, dh          4  0  1  0   Pujols A, 1b          4  1  1  0   
+Hernandez E, 2b       4  0  0  0   Upton J, lf           3  0  0  0   
+Rios E, 1b            4  1  1  0   Goodwin B, ph         1  0  1  1   
+Barnes A, c           4  1  2  0   Stassi M, c           3  0  0  0   
+                                   Castro J, ph          1  0  0  0   
+                                   Adell J, rf           2  1  0  0   
+                     -- -- -- --                        -- -- -- --
+                     36  7  9  7                        32  4  6  4   
+
+Los Angeles      002 002 120 --  7
+Anaheim          000 010 021 --  4
+
+  Los Angeles          IP  H  R ER BB SO
+Kershaw C (W)         7.0  1  1  1  2  6
+Baez P                0.2  1  2  2  1  2
+Floro D               0.1  2  0  0  0  0
+Treinen B             0.2  2  1  1  0  0
+Jansen K (S)          0.1  0  0  0  0  1
+
+  Anaheim              IP  H  R ER BB SO
+Sandoval P (L)*       6.0  6  5  4  2  5
+Barnes J              1.0  1  0  0  0  1
+Buchter R             1.0  2  2  2  0  2
+Ramirez N             1.0  0  0  0  0  1
+  * Pitched to 1 batter in 7th
+
+E -- Rendon A
+DP -- Los Angeles 1, Anaheim 1
+LOB -- Los Angeles 4, Anaheim 4
+2B -- Rios E, Ohtani S, Goodwin B
+HR -- Rendon A, Bellinger C 2
+SB -- Pollock A
+T -- 2:58
+A -- 0
+     Game of 8/15/2020 -- Los Angeles at Anaheim (N)
+
+  Los Angeles        AB  R  H RBI    Anaheim            AB  R  H RBI  
+Betts M, rf           5  1  2  3   Fletcher D, ss        5  1  2  0   
+Seager C, ss          5  0  0  0   La Stella T, 1b       5  2  2  1   
+Turner J, dh          4  0  1  0   Trout M, cf           4  1  1  3   
+Pollock A, cf         5  0  2  0   Rendon A, 3b          4  0  1  1   
+Bellinger C, 1b       4  2  2  0   Ohtani S, dh          4  0  0  0   
+Taylor C, lf-2b       4  2  1  0   Ward T, lf            4  0  0  0   
+Muncy M, 3b           3  1  1  3   Goodwin B, rf         4  0  0  0   
+Hernandez E, 2b       3  0  1  0   Stassi M, c           4  0  1  0   
+Pederson J, ph-lf     1  0  0  0   Rengifo L, 2b         4  1  1  0   
+Barnes A, c           5  0  1  0   
+                     -- -- -- --                        -- -- -- --
+                     39  6 11  6                        38  5  8  5   
+
+Los Angeles      022 000 100 1 --  6
+Anaheim          201 020 000 0 --  5
+
+  Los Angeles          IP  H  R ER BB SO
+Buehler W             4.2  6  5  4  1  5
+Ferguson C            1.1  1  0  0  0  1
+Graterol B            1.1  1  0  0  0  0
+McGee J (W)           1.2  0  0  0  0  1
+Jansen K (S)          1.0  0  0  0  0  2
+
+  Anaheim              IP  H  R ER BB SO
+Heaney A              5.2  5  4  4  4  6
+Mayers M              0.1  1  0  0  0  1
+Pena F                1.0  3  1  1  0  1
+Robles H              0.2  1  0  0  0  0
+Buttrey T             1.1  1  0  0  1  1
+Middleton K (L)       1.0  0  1  0  0  0
+
+E -- Hernandez E
+DP -- Los Angeles 1, Anaheim 1
+LOB -- Los Angeles 10, Anaheim 5
+2B -- Taylor C, La Stella T, Rendon A
+HR -- Trout M, Betts M
+SB -- Bellinger C, Trout M, Pollock A, Taylor C
+SF -- Muncy M
+WP -- Buehler W
+T -- 3:17
+A -- 0
+     Game of 8/16/2020 -- Los Angeles at Anaheim (D)
+
+  Los Angeles        AB  R  H RBI    Anaheim            AB  R  H RBI  
+Betts M, rf           5  2  2  1   Fletcher D, ss        5  0  1  0   
+Seager C, dh          4  1  2  3   La Stella T, 1b       4  0  0  0   
+Muncy M, 2b-3b        4  1  1  2   Trout M, cf           4  0  1  0   
+Bellinger C, cf       4  0  0  0   Rendon A, 3b          3  1  1  1   
+Taylor C, ss          4  0  0  0   Ohtani S, dh          4  1  1  0   
+Pederson J, lf        4  0  0  0   Goodwin B, lf         3  1  2  1   
+Rios E, 3b            1  0  1  0   Adell J, rf           4  0  2  0   
+Hernandez E, 2b       2  1  0  0   Stassi M, c           3  0  1  1   
+Beaty M, 1b           4  2  3  1   Rengifo L, 2b         4  0  1  0   
+Ruiz K, c             4  1  1  1   
+                     -- -- -- --                        -- -- -- --
+                     36  8 10  8                        34  3 10  3   
+
+Los Angeles      003 401 000 --  8
+Anaheim          010 101 000 --  3
+
+  Los Angeles          IP  H  R ER BB SO
+May D                 4.1  7  2  2  0  2
+Graterol B            0.2  0  0  0  0  0
+Alexander S (W)       2.0  3  1  1  0  0
+Santana D             2.0  0  0  0  3  1
+
+  Anaheim              IP  H  R ER BB SO
+Teheran J (L)         3.1  6  4  4  1  3
+Andriese M            2.2  4  4  4  0  5
+Milner H              1.0  0  0  0  0  2
+Barnes J              1.0  0  0  0  0  0
+Middleton K           1.0  0  0  0  0  1
+
+E -- Teheran J
+DP -- Los Angeles 3
+LOB -- Los Angeles 2, Anaheim 7
+2B -- Rios E
+HR -- Ruiz K, Muncy M, Seager C, Rendon A, Beaty M, Goodwin B
+SB -- Betts M
+CS -- Taylor C
+WP -- Santana D
+T -- 3:10
+A -- 0
+     Game of 8/17/2020 -- San Francisco at Anaheim (N)
+
+  San Francisco      AB  R  H RBI    Anaheim            AB  R  H RBI  
+Yastrzemski M, rf     5  0  2  2   Fletcher D, ss        4  2  2  0   
+Dickerson A, lf       5  0  1  1   La Stella T, 2b       4  2  2  3   
+Duggar S, lf          0  0  0  0   Trout M, cf           4  1  1  1   
+Solano D, 2b          3  1  1  0   Rendon A, 3b          4  1  3  1   
+Belt B, 1b            4  1  1  2   Pujols A, 1b          4  0  2  2   
+Longoria E, 3b        4  0  1  0   Adell J, rf           4  0  0  0   
+Sandoval P, dh        4  1  1  0   Upton J, dh           4  0  0  0   
+Crawford B, ss        3  1  1  0   Stassi M, c           3  0  0  0   
+Dubon M, cf           4  2  2  0   Goodwin B, lf         4  1  2  0   
+Tromp C, c            3  0  0  1   
+                     -- -- -- --                        -- -- -- --
+                     35  6 10  6                        35  7 12  7   
+
+San Francisco    200 013 000 --  6
+Anaheim          002 030 002 --  7
+  1 out when winning run was scored.
+
+  San Francisco        IP  H  R ER BB SO
+Anderson T            5.0  8  5  5  1  8
+Garcia J              1.0  1  0  0  1  0
+Rogers T              1.0  1  0  0  0  0
+Watson T              1.0  0  0  0  0  1
+Gott T (L)            0.1  2  2  2  0  1
+
+  Anaheim              IP  H  R ER BB SO
+Canning G             4.2  6  3  3  0  2
+Milner H              0.2  1  2  2  1  0
+Ramirez N             0.1  2  1  1  0  0
+Mayers M              1.1  0  0  0  0  2
+Pena F                1.0  1  0  0  0  1
+Buttrey T (W)         1.0  0  0  0  0  0
+
+DP -- San Francisco 1
+LOB -- San Francisco 5, Anaheim 6
+2B -- Goodwin B, Rendon A, Pujols A, Yastrzemski M
+3B -- Longoria E
+HR -- Belt B, Trout M, La Stella T
+SB -- Dubon M
+CS -- Crawford B
+SF -- La Stella T, Tromp C
+HBP -- by Canning G (Solano D)
+PB -- Tromp C
+T -- 3:12
+A -- 0
+     Game of 8/18/2020 -- San Francisco at Anaheim (D)
+
+  San Francisco      AB  R  H RBI    Anaheim            AB  R  H RBI  
+Yastrzemski M, rf     3  1  1  1   Fletcher D, ss        4  0  0  0   
+Dickerson A, lf       5  1  0  0   La Stella T, 1b       4  1  1  1   
+Dubon M, cf           0  0  0  0   Trout M, cf           2  1  0  0   
+Solano D, 2b          4  1  1  0   Rendon A, 3b          4  0  2  0   
+Belt B, 1b            5  1  2  1   Ohtani S, dh          4  0  0  1   
+Longoria E, 3b        3  3  1  1   Goodwin B, lf         3  0  1  0   
+Sandoval P, dh        4  1  2  3   Adell J, rf           3  0  1  0   
+Crawford B, ss        5  0  2  2   Bemboom A, c          1  0  0  0   
+Heineman T, c         4  0  1  0   Stassi M, ph-c        1  0  0  0   
+Duggar S, cf-lf       4  0  0  0   Rengifo L, 2b         3  0  0  0   
+                     -- -- -- --                        -- -- -- --
+                     37  8 10  8                        29  2  5  2   
+
+San Francisco    121 020 002 --  8
+Anaheim          100 000 001 --  2
+
+  San Francisco        IP  H  R ER BB SO
+Cahill T              4.0  4  1  1  1  4
+Baragar C             1.0  0  0  0  0  0
+Selman S              1.0  0  0  0  1  0
+Peralta W             1.0  0  0  0  0  0
+Garcia J (W)          1.0  0  0  0  0  0
+Anderson S            1.0  1  1  1  1  1
+
+  Anaheim              IP  H  R ER BB SO
+Bundy D (L)           4.0  4  4  4  4  3
+Barnes J              0.2  2  2  2  0  2
+Barria J              4.1  4  2  2  1  4
+
+E -- Crawford B
+DP -- San Francisco 2
+LOB -- San Francisco 8, Anaheim 5
+2B -- Goodwin B, Crawford B 2, Belt B, Longoria E, Sandoval P
+HR -- Yastrzemski M, La Stella T, Sandoval P
+CS -- Adell J
+SH -- Bemboom A
+HBP -- by Barnes J (Longoria E), by Peralta W (Goodwin B)
+WP -- Bundy D, Anderson S
+T -- 3:06
+A -- 0
+     Game of 8/28/2020 -- Seattle at Anaheim (N)
+
+  Seattle            AB  R  H RBI    Anaheim            AB  R  H RBI  
+Crawford J, ss        3  1  1  0   Fletcher D, 2b        3  0  0  0   
+Haggerty S, dh        4  0  1  1   Ohtani S, dh          3  1  1  0   
+Lewis K, cf           4  0  1  0   Trout M, cf           3  1  2  1   
+Seager K, 3b          4  1  1  0   Rendon A, 3b          3  0  0  0   
+Nola A, c             3  0  0  0   Pujols A, 1b          3  1  1  1   
+Marmolejos J, 1b      3  0  1  0   Walsh J, pr-1b        0  0  0  0   
+Lopes T, lf           4  0  1  1   Upton J, lf           4  0  3  1   
+Long S, 2b            4  0  0  0   Goodwin B, lf         0  0  0  0   
+Bishop B, rf          3  0  0  0   Adell J, rf           4  0  0  0   
+                                   Castro J, c           3  0  0  0   
+                                   Simmons A, ss         3  0  1  0   
+                     -- -- -- --                        -- -- -- --
+                     32  2  6  2                        29  3  8  3   
+
+Seattle          000 001 001 --  2
+Anaheim          000 002 01x --  3
+
+  Seattle              IP  H  R ER BB SO
+Margevicius N (L)     6.0  7  2  2  2  5
+Ramirez Y             1.0  0  0  0  2  2
+Lail B                1.0  1  1  1  0  3
+
+  Anaheim              IP  H  R ER BB SO
+Heaney A (W)          7.2  4  1  1  2 10
+Buttrey T (S)         1.1  2  1  1  1  0
+
+DP -- Seattle 1
+LOB -- Seattle 6, Anaheim 8
+2B -- Upton J, Ohtani S, Crawford J, Pujols A, Seager K
+HR -- Trout M
+SB -- Ohtani S
+CS -- Upton J
+HBP -- by Lail B (Rendon A), by Lail B (Pujols A)
+T -- 2:50
+A -- 0
+     Game of 8/29/2020 -- Seattle at Anaheim (N)
+
+  Seattle            AB  R  H RBI    Anaheim            AB  R  H RBI  
+Crawford J, ss        3  0  2  0   Fletcher D, 2b        5  2  2  0   
+Gordon D, ss          1  1  1  0   Ohtani S, dh          5  1  0  2   
+Haggerty S, lf        2  0  0  0   Trout M, cf           4  4  3  6   
+Lewis K, cf           3  0  0  0   Rendon A, 3b          2  0  1  2   
+Bishop B, cf          1  0  1  1   Rengifo L, pr-3b      1  0  0  0   
+Seager K, 3b          4  0  0  0   Pujols A, 1b          4  0  1  2   
+Nola A, c             2  0  0  0   Upton J, lf           2  1  0  1   
+Odom J, ph-c          1  0  0  0   Adell J, rf           5  2  2  3   
+Marmolejos J, 1b      3  1  1  0   Bemboom A, c          4  3  2  0   
+Lopes T, dh-p         4  0  1  1   Simmons A, ss         3  3  2  0   
+Long S, 2b            4  1  1  1   
+Fraley J, rf          3  0  0  0   
+                     -- -- -- --                        -- -- -- --
+                     31  3  7  3                        35 16 13 16   
+
+Seattle          010 000 011 --  3
+Anaheim          120 034 42x -- 16
+
+  Seattle              IP  H  R ER BB SO
+Sheffield J (L)       4.2  4  6  6  4  6
+Gerber J              0.1  1  0  0  0  0
+Fletcher A            0.2  3  4  4  2  0
+Grotz Z               1.1  3  4  4  4  1
+Lopes T               1.0  2  2  2  1  0
+
+  Anaheim              IP  H  R ER BB SO
+Bundy D (W)           5.1  4  1  1  3  3
+Quijada J             0.2  0  0  0  0  0
+Buchter R             1.0  0  0  0  1  0
+Middleton K           1.0  2  1  1  1  0
+Bard L                1.0  1  1  1  0  2
+
+DP -- Seattle 1, Anaheim 2
+LOB -- Seattle 6, Anaheim 9
+2B -- Crawford J, Rendon A, Marmolejos J, Lopes T, Trout M
+HR -- Adell J 2, Trout M, Long S
+SB -- Fraley J
+CS -- Crawford J
+SF -- Trout M
+HBP -- by Fletcher A (Bemboom A), by Grotz Z (Upton J)
+T -- 3:26
+A -- 0
+     Game of 8/30/2020 -- Seattle at Anaheim (D)
+
+  Seattle            AB  R  H RBI    Anaheim            AB  R  H RBI  
+Crawford J, ss        4  0  0  0   Fletcher D, 2b        2  0  0  0   
+Haggerty S, 3b        4  0  1  0   Rengifo L, 2b         2  0  1  0   
+Lewis K, cf           3  2  1  1   Ohtani S, dh          4  0  1  0   
+Seager K, dh          4  0  0  0   Trout M, cf           2  0  0  0   
+Marmolejos J, lf      3  0  1  0   Rendon A, 3b          4  0  0  0   
+Lopes T, ph-lf        1  0  1  1   Goodwin B, lf         4  0  0  0   
+White E, 1b           4  0  1  0   Pujols A, 1b          4  1  2  0   
+Fraley J, rf          4  0  0  0   Walsh J, pr-1b        0  0  0  0   
+Gordon D, 2b          3  0  2  0   Adell J, rf           4  0  0  0   
+Hudson J, c           1  0  1  0   Bemboom A, c          3  0  0  0   
+Odom J, c             2  0  0  0   Simmons A, ss         4  0  1  1   
+Long S, ph-2b         2  0  0  0   
+                     -- -- -- --                        -- -- -- --
+                     35  2  8  2                        33  1  5  1   
+
+Seattle          000 000 100 1 --  2
+Anaheim          000 000 100 0 --  1
+
+  Seattle              IP  H  R ER BB SO
+Dunn J                6.0  1  0  0  4  6
+Misiewicz A           1.0  2  1  1  0  2
+Hirano Y              1.0  1  0  0  1  1
+Williams T (W)        1.0  1  0  0  1  1
+Ramirez Y (S)         1.0  0  0  0  1  2
+
+  Anaheim              IP  H  R ER BB SO
+Canning G             8.0  4  1  1  1  7
+Buttrey T             1.0  1  0  0  0  2
+Quijada J (L)         0.1  2  1  0  0  1
+Pena F                0.2  1  0  0  0  0
+
+E -- Gordon D
+DP -- Seattle 1, Anaheim 1
+LOB -- Seattle 5, Anaheim 10
+2B -- Pujols A
+HR -- Lewis K
+SB -- Ohtani S, Rengifo L
+CS -- Gordon D
+WP -- Williams T 2
+T -- 3:27
+A -- 0
+     Game of 8/31/2020 -- Seattle at Anaheim (D)
+
+  Seattle            AB  R  H RBI    Anaheim            AB  R  H RBI  
+Crawford J, ss        3  0  1  0   Simmons A, ss         4  0  2  0   
+Haggerty S, lf        4  0  1  0   Jones J, pr           0  0  0  0   
+Lewis K, cf           4  0  0  0   Trout M, cf           4  0  0  0   
+Seager K, 3b          4  0  1  0   Rendon A, 3b          3  0  0  0   
+Marmolejos J, dh      3  1  2  1   Pujols A, dh          4  0  0  0   
+White E, 1b           4  0  0  0   Upton J, lf           3  1  1  1   
+Walton D, 2b          3  0  0  0   Adell J, rf           3  0  0  0   
+Fraley J, rf          4  1  2  0   Walsh J, 1b           3  0  0  0   
+Odom J, c             4  0  1  1   Rengifo L, 2b         3  0  0  0   
+                                   Bemboom A, c          2  0  0  0   
+                                   Ohtani S, ph          1  0  1  0   
+                     -- -- -- --                        -- -- -- --
+                     33  2  8  2                        30  1  4  1   
+
+Seattle          001 001 000 --  2
+Anaheim          010 000 000 --  1
+
+  Seattle              IP  H  R ER BB SO
+Gonzales M (W)        9.0  4  1  1  1  8
+
+  Anaheim              IP  H  R ER BB SO
+Barria J              4.1  5  1  1  2  3
+Andriese M (L)        1.2  1  1  1  1  2
+Mayers M              1.0  0  0  0  0  2
+Pena F                1.0  1  0  0  0  2
+Buttrey T             1.0  1  0  0  0  1
+
+DP -- Seattle 1, Anaheim 1
+LOB -- Seattle 7, Anaheim 3
+2B -- Haggerty S, Crawford J
+3B -- Fraley J
+HR -- Upton J, Marmolejos J
+CS -- Marmolejos J, Fraley J
+T -- 2:30
+A -- 0
+     Game of 9/2/2020 -- San Diego at Anaheim (N)
+
+  San Diego          AB  R  H RBI    Anaheim            AB  R  H RBI  
+Grisham T, cf         4  1  0  0   Ohtani S, dh          2  1  0  0   
+Tatis F, ss           3  1  0  1   Trout M, cf           4  1  2  2   
+Machado M, 3b         5  2  2  2   Rendon A, 3b          3  0  1  0   
+Hosmer E, 1b          3  3  2  3   Barreto F, ph-3b      1  0  0  0   
+Moreland M, dh        5  0  2  0   Upton J, lf           4  1  1  0   
+Cronenworth J, 2b     3  1  0  0   Pujols A, 1b          3  0  1  1   
+Garcia G, ph-2b       1  0  0  0   Walsh J, 1b           1  1  1  0   
+Profar J, lf          3  1  2  3   Simmons A, ss         4  0  2  1   
+Mateo J, ph-rf        1  0  0  0   Adell J, rf           4  0  0  0   
+Castro J, c           5  1  1  2   Bemboom A, c          4  0  0  0   
+Allen G, rf-lf        1  1  0  0   Rengifo L, 2b         3  0  0  0   
+                     -- -- -- --                        -- -- -- --
+                     34 11  9 11                        33  4  8  4   
+
+San Diego        000 201 080 -- 11
+Anaheim          002 100 001 --  4
+
+  San Diego            IP  H  R ER BB SO
+Lamet D               6.1  5  3  3  1  6
+Hill T (W)*           0.2  0  0  0  1  0
+Johnson P             1.0  1  0  0  0  1
+Guerra J              1.0  2  1  1  0  0
+
+  Anaheim              IP  H  R ER BB SO
+Teheran J             5.0  3  2  2  3  2
+Quijada J             1.0  1  1  1  1  1
+Pena F                1.0  0  0  0  0  2
+Buttrey T (L)         0.2  3  3  3  0  1
+Robles H+             0.0  0  3  3  3  0
+Ramirez N             0.1  2  2  2  0  0
+Bedrosian C           1.0  0  0  0  0  0
+  * Pitched to 1 batter in 8th
+  + Pitched to 3 batters in 8th
+
+DP -- San Diego 2, Anaheim 1
+LOB -- San Diego 6, Anaheim 4
+2B -- Pujols A, Castro J, Walsh J
+HR -- Trout M, Profar J, Hosmer E
+SB -- Allen G, Cronenworth J
+SF -- Profar J
+HBP -- by Quijada J (Hosmer E), by Pena F (Allen G)
+T -- 3:13
+A -- 0
+     Game of 9/3/2020 -- San Diego at Anaheim (D)
+
+  San Diego          AB  R  H RBI    Anaheim            AB  R  H RBI  
+Profar J, lf          4  0  0  0   Simmons A, ss         4  0  2  1   
+Tatis F, ss           4  0  1  0   Trout M, cf           4  0  0  0   
+Machado M, 3b         4  0  0  0   Rendon A, 3b          4  1  2  0   
+Hosmer E, 1b          4  0  0  0   Upton J, lf           4  0  2  1   
+Nola A, c             2  0  0  0   Ward T, lf            0  0  0  0   
+Myers W, rf           3  0  1  0   Ohtani S, dh          3  0  1  0   
+Moreland M, dh        2  0  0  0   Barreto F, 2b         3  0  0  0   
+Cronenworth J, 2b     3  0  1  0   Walsh J, 1b           3  1  1  0   
+Mateo J, cf           2  0  0  0   Adell J, rf           1  0  0  0   
+Grisham T, ph-cf      1  0  0  0   Bemboom A, c          3  0  1  0   
+                     -- -- -- --                        -- -- -- --
+                     29  0  3  0                        29  2  9  2   
+
+San Diego        000 000 000 --  0
+Anaheim          001 100 00x --  2
+
+  San Diego            IP  H  R ER BB SO
+Clevinger M (L)       6.0  7  2  2  1  2
+Strahm M              1.0  1  0  0  1  1
+Altavilla D           1.0  1  0  0  0  2
+
+  Anaheim              IP  H  R ER BB SO
+Heaney A (W)          7.0  3  0  0  2  6
+Mayers M              1.0  0  0  0  0  2
+Pena F (S)            1.0  0  0  0  0  1
+
+DP -- San Diego 2, Anaheim 1
+LOB -- San Diego 4, Anaheim 5
+2B -- Walsh J, Rendon A
+3B -- Rendon A
+CS -- Upton J, Bemboom A
+WP -- Strahm M
+T -- 2:40
+A -- 0
+     Game of 9/4/2020 -- Houston at Anaheim (N)
+
+  Houston            AB  R  H RBI    Anaheim            AB  R  H RBI  
+Springer G, cf        5  1  2  0   Simmons A, ss         5  1  2  1   
+Reddick J, rf         6  0  1  1   Trout M, cf           3  2  2  2   
+Brantley M, dh        4  1  2  0   Rendon A, 3b          4  1  0  0   
+Straw M, pr           1  1  0  0   Ohtani S, dh          5  0  1  1   
+Gurriel Y, 1b         5  1  2  0   Ward T, rf-lf         4  0  1  0   
+Tucker K, lf          5  0  2  2   Walsh J, 1b           3  1  1  2   
+Correa C, ss          5  0  2  1   Barreto F, lf         4  0  0  0   
+Toro A, 3b            4  0  0  0   Adell J, rf           1  0  0  0   
+Diaz A, 2b            5  0  1  0   Rengifo L, 2b         2  1  0  0   
+Maldonado M, c        5  1  1  0   Briceno J, c          3  0  0  0   
+Stubbs G, pr-c        0  0  0  0   Pujols A, ph          1  0  0  0   
+                                   Bemboom A, c          0  0  0  0   
+                     -- -- -- --                        -- -- -- --
+                     45  5 13  4                        35  6  7  6   
+
+Houston          000 200 003 00 --  5
+Anaheim          301 001 000 01 --  6
+  1 out when winning run was scored.
+
+  Houston              IP  H  R ER BB SO
+McCullers L*          0.0  2  3  3  3  0
+Garcia L              4.1  1  1  1  3  2
+Perez C               1.1  3  1  1  1  2
+Scrubb A              2.1  0  0  0  3  3
+Pressly R             1.0  0  0  0  1  2
+Raley B (L)           1.1  1  1  0  0  1
+
+  Anaheim              IP  H  R ER BB SO
+Bundy D               7.0  6  2  2  1  8
+Mayers M              0.2  3  0  0  0  2
+Bard L                0.1  0  0  0  0  0
+Buttrey T             0.1  3  3  3  0  0
+Andriese M (W)        2.2  1  0  0  0  3
+  * Pitched to 5 batters in 1st
+
+E -- Briceno J
+DP -- Houston 1, Anaheim 1
+LOB -- Houston 12, Anaheim 14
+2B -- Gurriel Y, Correa C, Tucker K 2, Diaz A, Springer G
+HR -- Trout M, Walsh J
+SB -- Straw M
+SH -- Rengifo L
+SF -- Walsh J
+HBP -- by Bundy D (Toro A), by Raley B (Simmons A)
+WP -- Scrubb A
+PB -- Briceno J
+T -- 4:27
+A -- 0
+     Game of 9/5/2020, game 1 -- Houston at Anaheim (D)
+
+  Houston            AB  R  H RBI    Anaheim            AB  R  H RBI  
+Springer G, dh        3  2  1  0   Simmons A, ss         4  1  2  1   
+Straw M, cf           4  2  2  1   Walsh J, 1b           4  0  0  0   
+Brantley M, lf        3  1  1  1   Trout M, cf           3  4  3  2   
+Gurriel Y, 1b         4  1  1  2   Ohtani S, dh          3  1  1  1   
+Tucker K, rf          4  1  3  3   Upton J, lf           4  2  3  3   
+Correa C, ss          4  1  2  0   Barreto F, 3b         4  0  1  0   
+Maldonado M, c        4  0  1  2   Adell J, rf           4  1  2  3   
+Toro A, 3b            4  0  0  0   Bemboom A, c          2  1  0  0   
+Mayfield J, 2b        3  1  1  0   Rengifo L, 2b         3  0  1  0   
+                     -- -- -- --                        -- -- -- --
+                     33  9 12  9                        31 10 13 10   
+
+Houston          013 020 3 --  9
+Anaheim          102 121 3 -- 10
+  1 out when game ended.
+
+  Houston              IP  H  R ER BB SO
+Bielak B              3.2  7  4  4  0  5
+Devenski C            1.1  2  2  2  0  1
+Sneed C               0.2  2  1  1  1  0
+Taylor B*             0.1  0  2  2  2  0
+Paredes E (L)         0.1  2  1  1  0  1
+
+  Anaheim              IP  H  R ER BB SO
+Canning G             4.0  4  4  4  2  4
+Bard L                0.2  2  2  2  0  0
+Quijada J             0.1  2  0  0  0  1
+Mayers M              1.0  0  0  0  0  0
+Pena F (W)            1.0  4  3  3  0  1
+  * Pitched to 2 batters in 7th
+
+E -- Rengifo L
+LOB -- Houston 5, Anaheim 5
+2B -- Trout M 2, Simmons A 2, Upton J 2, Straw M, Correa C
+3B -- Springer G
+HR -- Tucker K, Trout M, Adell J, Upton J
+SB -- Ohtani S
+CS -- Toro A
+T -- 3:01
+A -- 0
+     Game of 9/6/2020 -- Houston at Anaheim (D)
+
+  Houston            AB  R  H RBI    Anaheim            AB  R  H RBI  
+Springer G, cf-rf     4  0  1  0   Simmons A, ss         5  0  0  0   
+Reddick J, rf         2  1  0  0   Upton J, lf           4  1  1  2   
+Gurriel Y, ph-1b      1  0  0  0   Rendon A, 3b          5  1  2  2   
+Brantley M, dh        4  0  0  0   Pujols A, dh          5  0  0  0   
+Tucker K, lf          3  1  1  2   Adell J, cf           4  2  2  0   
+Correa C, ss          4  1  1  1   Stassi M, c           3  2  2  0   
+Diaz A, 2b            3  2  1  1   Walsh J, 1b           3  1  2  2   
+Toro A, 1b            3  0  1  1   Ward T, rf            3  2  2  1   
+Straw M, cf           1  0  0  0   Barreto F, 2b         2  0  1  1   
+Maldonado M, c        4  0  0  0   Bemboom A, pr         0  0  0  0   
+Mayfield J, 3b        4  0  1  0   Rengifo L, 2b         0  0  0  1   
+                     -- -- -- --                        -- -- -- --
+                     33  5  6  5                        34  9 12  9   
+
+Houston          210 000 200 --  5
+Anaheim          013 001 04x --  9
+
+  Houston              IP  H  R ER BB SO
+Valdez F (L)*         7.0 11  8  8  2  2
+Devenski C            0.1  1  1  1  2  0
+Raley B               0.2  0  0  0  0  2
+
+  Anaheim              IP  H  R ER BB SO
+Barria J              5.0  3  3  3  2  6
+Quijada J             1.0  0  0  0  0  2
+Pena F+               0.0  2  2  2  1  0
+Ramirez N             1.0  1  0  0  0  0
+Mayers M (W)          1.0  0  0  0  0  1
+Buttrey T             1.0  0  0  0  0  2
+  * Pitched to 3 batters in 8th
+  + Pitched to 3 batters in 7th
+
+E -- Mayers M
+DP -- Houston 1
+LOB -- Houston 4, Anaheim 7
+2B -- Adell J, Toro A, Mayfield J
+3B -- Ward T
+HR -- Tucker K, Diaz A, Rendon A, Correa C
+SB -- Barreto F
+CS -- Springer G
+SF -- Walsh J
+HBP -- by Valdez F (Barreto F)
+WP -- Valdez F
+T -- 3:28
+A -- 0
+     Game of 9/15/2020 -- Arizona at Anaheim (N)
+
+  Arizona            AB  R  H RBI    Anaheim            AB  R  H RBI  
+Rojas J, 2b           5  0  0  0   Fletcher D, 2b        5  1  3  1   
+Smith P, dh           4  1  1  1   Walsh J, 1b           5  2  3  3   
+Walker C, 1b          3  2  1  0   Trout M, cf           4  0  1  0   
+Calhoun K, rf         5  2  3  5   Rendon A, 3b          5  1  1  1   
+Escobar E, 3b         4  0  0  0   Pujols A, dh          4  0  0  0   
+Peralta D, lf         4  1  2  1   Upton J, lf           4  1  1  2   
+Ahmed N, ss           4  0  0  0   Stassi M, c           4  0  1  0   
+Varsho D, cf          4  1  1  1   Ward T, rf            4  1  1  0   
+Kelly C, c            4  2  3  1   Simmons A, ss         3  2  2  1   
+                     -- -- -- --                        -- -- -- --
+                     37  9 11  9                        38  8 13  8   
+
+Arizona          223 100 010 --  9
+Anaheim          001 052 000 --  8
+
+  Arizona              IP  H  R ER BB SO
+Bumgarner M           5.1 13  8  8  1  2
+Guerra J              0.2  0  0  0  0  1
+Mella K (W)           1.0  0  0  0  0  0
+Rondon H              1.0  0  0  0  1  1
+Crichton S (S)        1.0  0  0  0  0  0
+
+  Anaheim              IP  H  R ER BB SO
+Teheran J             2.0  3  4  4  1  0
+Milner H              1.0  3  3  3  1  2
+Bedrosian C           2.1  3  1  1  0  1
+Mayers M              1.2  0  0  0  0  2
+Andriese M (L)        1.0  1  1  1  0  1
+Buttrey T             1.0  1  0  0  0  1
+
+DP -- Arizona 1
+LOB -- Arizona 4, Anaheim 6
+2B -- Walsh J 2, Kelly C 2, Rendon A, Ward T, Simmons A, Fletcher D, Walker C
+HR -- Calhoun K 2, Varsho D, Kelly C, Walsh J, Upton J, Peralta D
+SF -- Smith P
+HBP -- by Bumgarner M (Trout M)
+PB -- Kelly C
+T -- 3:06
+A -- 0
+     Game of 9/16/2020 -- Arizona at Anaheim (N)
+
+  Arizona            AB  R  H RBI    Anaheim            AB  R  H RBI  
+Rojas J, dh           5  0  1  0   Fletcher D, 2b        5  0  1  0   
+VanMeter J, 2b        5  0  0  0   Walsh J, 1b           4  2  2  1   
+Walker C, 1b          5  1  1  0   Trout M, cf           4  0  1  1   
+Calhoun K, rf         5  2  2  2   Rendon A, 3b          5  0  0  1   
+Escobar E, 3b         4  1  0  0   Pujols A, dh          4  0  0  0   
+Peralta D, lf         4  3  3  2   Upton J, lf           3  2  2  1   
+Ahmed N, ss           4  2  2  2   Stassi M, c           4  1  3  2   
+Vogt S, c             3  0  1  1   Adell J, rf           4  0  0  0   
+Varsho D, cf          3  0  1  1   Simmons A, ss         4  1  2  0   
+                     -- -- -- --                        -- -- -- --
+                     38  9 11  8                        37  6 11  6   
+
+Arizona          042 000 300 --  9
+Anaheim          020 011 200 --  6
+
+  Arizona              IP  H  R ER BB SO
+Smith C               2.0  3  2  2  2  4
+Clarke T (W)          5.0  6  4  4  1  3
+Guerra J              1.0  2  0  0  0  1
+Crichton S (S)        1.0  0  0  0  0  0
+
+  Anaheim              IP  H  R ER BB SO
+Bundy D (L)           2.2  6  6  5  2  2
+Milner H              0.1  1  0  0  1  0
+Sandoval P            4.0  4  3  3  0  3
+Ramirez N             2.0  0  0  0  0  0
+
+E -- Fletcher D, Escobar E
+DP -- Arizona 2
+LOB -- Arizona 5, Anaheim 7
+2B -- Stassi M, Walker C, Trout M
+HR -- Stassi M, Walsh J, Upton J, Calhoun K, Peralta D
+SB -- Ahmed N
+WP -- Guerra J
+T -- 3:10
+A -- 0
+     Game of 9/17/2020 -- Arizona at Anaheim (D)
+
+  Arizona            AB  R  H RBI    Anaheim            AB  R  H RBI  
+Varsho D, cf          4  0  0  0   Fletcher D, 2b        5  1  3  0   
+VanMeter J, 2b        4  1  1  1   Walsh J, 1b           3  1  1  1   
+Walker C, dh          4  1  2  1   Trout M, cf           3  0  1  2   
+Calhoun K, rf         3  0  1  0   Rendon A, 3b          4  1  2  2   
+Escobar E, 3b         4  0  0  0   Pujols A, dh          4  1  2  0   
+Peralta D, lf         4  0  1  0   Upton J, lf           4  0  0  0   
+Ahmed N, ss           4  0  1  1   Ward T, rf            4  2  3  0   
+Smith P, 1b           4  1  2  0   Bemboom A, c          3  0  1  1   
+Kelly C, c            4  0  0  0   Simmons A, ss         3  1  1  1   
+                     -- -- -- --                        -- -- -- --
+                     35  3  8  3                        33  7 14  7   
+
+Arizona          000 110 001 --  3
+Anaheim          321 000 01x --  7
+
+  Arizona              IP  H  R ER BB SO
+Young A (L)           2.2  8  6  6  1  2
+Lopez Y               0.1  0  0  0  0  0
+Smith R               5.0  6  1  1  0  3
+
+  Anaheim              IP  H  R ER BB SO
+Canning G (W)         5.0  6  2  1  2  7
+Mayers M              2.0  0  0  0  2  2
+Pena F                1.2  2  1  1  0  2
+Buttrey T             0.1  0  0  0  0  0
+
+E -- Simmons A 2
+DP -- Arizona 2
+LOB -- Arizona 9, Anaheim 6
+2B -- Fletcher D, Ward T 2, Ahmed N, Calhoun K, Rendon A
+HR -- Rendon A
+SB -- Ward T
+CS -- Varsho D
+SF -- Trout M, Walsh J, Bemboom A
+WP -- Canning G 2, Pena F, Buttrey T
+T -- 3:07
+A -- 0
+     Game of 9/18/2020 -- Texas at Anaheim (N)
+
+  Texas              AB  R  H RBI    Anaheim            AB  R  H RBI  
+Taveras L, cf         4  0  0  0   Fletcher D, 2b        4  1  1  0   
+Solak N, 2b           4  0  0  0   Walsh J, 1b           4  0  1  1   
+Kiner-Falefa I, 3b    4  0  0  0   Trout M, cf           4  1  1  0   
+Gallo J, rf           4  0  1  0   Rendon A, 3b          3  0  1  2   
+Guzman R, 1b          4  1  1  0   Pujols A, dh          5  2  3  2   
+Tejeda A, ss          4  1  2  0   Upton J, lf           3  1  1  0   
+Calhoun W, dh         3  0  1  2   Adell J, pr-rf        0  0  0  0   
+Huff S, c             3  0  1  0   Stassi M, c           3  0  0  0   
+White E, lf           3  0  0  0   Ward T, rf-lf         4  0  2  1   
+                                   Simmons A, ss         4  1  1  0   
+                     -- -- -- --                        -- -- -- --
+                     33  2  6  2                        34  6 11  6   
+
+Texas            000 000 200 --  2
+Anaheim          010 011 12x --  6
+
+  Texas                IP  H  R ER BB SO
+Herget J              1.0  0  0  0  2  0
+Benjamin W (L)        4.0  6  2  2  2  4
+Chavez J              1.0  2  1  1  1  0
+Evans D               1.0  1  1  1  0  0
+Montero R             1.0  2  2  2  1  0
+
+  Anaheim              IP  H  R ER BB SO
+Barria J (W)          6.1  6  2  2  0  8
+Andriese M            0.2  0  0  0  0  0
+Pena F                1.0  0  0  0  0  1
+Milner H              1.0  0  0  0  0  1
+
+E -- Simmons A
+DP -- Texas 1, Anaheim 1
+LOB -- Texas 4, Anaheim 11
+2B -- Upton J, Huff S, Tejeda A, Trout M, Rendon A
+HR -- Pujols A 2
+HBP -- by Evans D (Upton J)
+T -- 2:55
+A -- 0
+     Game of 9/19/2020 -- Texas at Anaheim (N)
+
+  Texas              AB  R  H RBI    Anaheim            AB  R  H RBI  
+Taveras L, cf         4  1  2  1   Fletcher D, 2b        3  1  1  1   
+Solak N, lf           4  1  2  0   Walsh J, rf-1b        4  0  1  0   
+Kiner-Falefa I, 3b    3  0  0  0   Trout M, cf           4  0  1  1   
+Odor R, 2b            4  1  1  2   Rendon A, 3b          4  0  1  0   
+Apostel S, 1b         4  0  0  0   Pujols A, 1b          4  0  0  0   
+Calhoun W, dh         3  0  1  0   Adell J, rf           0  0  0  0   
+Tejeda A, ss          4  0  0  0   Ohtani S, dh          3  2  2  1   
+White E, rf           3  0  0  0   Ward T, lf            3  1  1  1   
+Gallo J, ph           1  0  0  0   Stassi M, c           3  0  0  0   
+Mathis J, c           3  0  0  0   Simmons A, ss         3  0  1  0   
+                     -- -- -- --                        -- -- -- --
+                     33  3  6  3                        31  4  8  4   
+
+Texas            300 000 000 --  3
+Anaheim          010 020 01x --  4
+
+  Texas                IP  H  R ER BB SO
+Lynn L                7.0  7  3  3  0  5
+Martin B (L)          1.0  1  1  0  1  0
+
+  Anaheim              IP  H  R ER BB SO
+Heaney A              6.2  6  3  3  1  8
+Ramirez N             0.1  0  0  0  0  0
+Mayers M (W)          2.0  0  0  0  0  3
+
+E -- Apostel S
+DP -- Texas 2
+LOB -- Texas 5, Anaheim 4
+2B -- Simmons A, Ward T
+HR -- Taveras L, Odor R, Ohtani S
+SB -- Solak N, Taveras L
+HBP -- by Heaney A (Calhoun W)
+WP -- Heaney A, Lynn L
+T -- 2:35
+A -- 0
+     Game of 9/20/2020 -- Texas at Anaheim (D)
+
+  Texas              AB  R  H RBI    Anaheim            AB  R  H RBI  
+Taveras L, cf         4  1  0  0   Fletcher D, 2b        4  1  1  0   
+Calhoun W, lf         4  0  2  0   Walsh J, 1b           4  0  1  0   
+White E, lf           0  0  0  0   Trout M, cf           4  0  1  0   
+Kiner-Falefa I, 3b    5  1  1  0   Rendon A, 3b          3  0  0  0   
+Gallo J, rf           4  1  1  2   Ohtani S, dh          3  0  0  1   
+Odor R, 2b            4  1  2  2   Upton J, lf           4  1  1  0   
+Tejeda A, ss          4  1  1  1   Ward T, rf            3  0  1  1   
+Dietrich D, dh        2  1  1  1   Bemboom A, c          3  0  0  0   
+Guzman R, 1b          2  0  0  0   Simmons A, ss         3  0  0  0   
+Apostel S, 1b         2  0  0  0   
+Huff S, c             4  1  1  1   
+                     -- -- -- --                        -- -- -- --
+                     35  7  9  7                        31  2  5  2   
+
+Texas            211 100 020 --  7
+Anaheim          010 001 000 --  2
+
+  Texas                IP  H  R ER BB SO
+Cody K (W)            5.0  3  1  1  0  5
+King J                2.0  2  1  1  1  2
+Hearn T               1.0  0  0  0  0  1
+Allard K              1.0  0  0  0  1  0
+
+  Anaheim              IP  H  R ER BB SO
+Teheran J (L)*        1.0  2  3  3  2  0
+Bedrosian C           1.1  1  1  1  1  3
+Sandoval P            4.1  3  1  1  1  7
+Buttrey T             0.2  3  2  2  0  0
+Ramirez N             0.2  0  0  0  0  2
+Robles H              1.0  0  0  0  0  1
+  * Pitched to 2 batters in 2nd
+
+DP -- Texas 1, Anaheim 1
+LOB -- Texas 5, Anaheim 4
+2B -- Upton J, Odor R
+HR -- Gallo J, Tejeda A, Huff S, Odor R, Dietrich D
+CS -- Dietrich D
+T -- 3:00
+A -- 0
+     Game of 9/21/2020 -- Texas at Anaheim (D)
+
+  Texas              AB  R  H RBI    Anaheim            AB  R  H RBI  
+Taveras L, cf         3  1  0  0   Fletcher D, 2b-3b     5  1  2  0   
+Calhoun W, dh         4  0  0  0   Walsh J, 1b           4  1  1  4   
+Kiner-Falefa I, 3b    4  1  2  1   Trout M, cf           4  0  1  0   
+Gallo J, rf           3  0  0  0   Rendon A, 3b          4  0  1  0   
+Solak N, lf           4  2  3  1   Rengifo L, 2b         0  0  0  0   
+Odor R, 2b            4  0  0  0   Ohtani S, dh          2  2  0  0   
+Tejeda A, ss          4  0  1  1   Upton J, lf           1  1  0  0   
+Dietrich D, 1b        4  1  1  2   Adell J, rf           0  0  0  0   
+Mathis J, c           4  0  0  0   Ward T, rf-lf         3  1  0  0   
+                                   Stassi M, c           4  1  2  2   
+                                   Simmons A, ss         4  1  1  1   
+                     -- -- -- --                        -- -- -- --
+                     34  5  7  5                        31  8  8  7   
+
+Texas            111 002 000 --  5
+Anaheim          010 700 00x --  8
+
+  Texas                IP  H  R ER BB SO
+Gibson K (L)          4.0  5  8  7  4  4
+Herget J              1.0  0  0  0  0  1
+Evans D               1.0  2  0  0  0  1
+Goody N               1.0  1  0  0  1  2
+Chavez J              1.0  0  0  0  0  1
+
+  Anaheim              IP  H  R ER BB SO
+Bundy D (W)           5.0  5  3  3  2  3
+Milner H              0.2  2  2  2  0  0
+Andriese M            1.1  0  0  0  0  0
+Mayers M (S)          2.0  0  0  0  0  3
+
+E -- Tejeda A
+DP -- Texas 2
+LOB -- Texas 4, Anaheim 5
+2B -- Tejeda A, Solak N
+3B -- Trout M
+HR -- Kiner-Falefa I, Walsh J, Dietrich D
+SB -- Solak N, Taveras L
+HBP -- by Gibson K (Upton J)
+T -- 3:00
+A -- 0
+
