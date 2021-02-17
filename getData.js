@@ -15,8 +15,12 @@ function getData(file) {
 
         createEntry(item.resPitcher, item.gameId, false)
 
-        // IP
-        result[`${item.resPitcher}`][`${item.gameId}`]['IP']++
+        // Record Outs
+        result[`${item.resPitcher}`][`${item.gameId}`]['O'] = result[`${item.resPitcher}`][`${item.gameId}`]['O'] + item.outsOnPlay
+
+        // Calculate IP
+        result[`${item.resPitcher}`][`${item.gameId}`]['IP'] = 
+            `${~~(result[`${item.resPitcher}`][`${item.gameId}`]['O']/3)}.${result[`${item.resPitcher}`][`${item.gameId}`]['O']%3}`
 
         // Iterate Ks
         if (item.eventType === 3) {
@@ -59,7 +63,8 @@ function createEntry(player, gameId, isBatter) {
         else {
             // IP* K ERA WHIP K/9 QS SV+H
             result[`${player}`][`${gameId}`] = {
-                'IP': 0,
+                'IP': '',
+                'O': 0,
                 'K': 0,
                 'ER': 0,
                 'ERA': 0,
