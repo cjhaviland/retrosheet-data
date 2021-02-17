@@ -26,6 +26,10 @@ function getData(file) {
         if (item.eventType === 3) {
             result[`${item.resPitcher}`][`${item.gameId}`]['K']++
         }
+
+        if (item.inning === 6 && (item.outs + item.outsOnPlay) === 3) {
+            qualityStart(item.resPitcher, item.gameId)
+        }
     }
 
     fs.writeFileSync('data/output.json', JSON.stringify(result, null, 2))    
@@ -155,6 +159,15 @@ function calcRuns(dest, player, pitcher, gameId) {
             createEntry(pitcher, gameId, false)
             result[`${pitcher}`][`${gameId}`]['ER']++
         }
+    }
+}
+
+function qualityStart(pitcher, gameId) {
+    var ip = Number.parseFloat(result[`${pitcher}`][`${gameId}`]['IP']) 
+    var er = result[`${pitcher}`][`${gameId}`]['ER']
+
+    if (ip >= 6 && er <= 3) {
+        result[`${pitcher}`][`${gameId}`]['QS'] = 1
     }
 }
 
