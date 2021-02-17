@@ -3,12 +3,11 @@ const sanitizeTxtFiles = require('./sanitizeTxtFiles')
 const csvConvert = require('./csvConvert')
 const getData = require('./getData')
 
-fs.readdir('./data/txt', (err, files) => {
-    if (err) return console.error(err)
+// fs.readdir('./data/txt', (err, files) => {
+//     if (err) return console.error(err)
 
-    txtFilesList = files
-})
-
+//     txtFilesList = files
+// })
 
 // Step 1 - Run bevent.bat
 
@@ -19,12 +18,12 @@ fs.readdir('./data/txt', (err, files) => {
 // csvConvert()
 
 // Step 4 - Get the data from the JSON files
-
-fs.readdir('./data/json', (err, files) => {
-    if (err) return console.error(err)
+getData('2020NYN.json')
+// fs.readdir('./data/json', (err, files) => {
+//     if (err) return console.error(err)
     
-    files.forEach(file => {
-        // console.log(file)
-        getData(file)
-    })
-})
+//     files.forEach(file => {
+//         // console.log(file)
+//         getData(file)
+//     })
+// })
