@@ -99,29 +99,10 @@ function batterStats(item) {
         result[`${item.resBatter}`][`${item.gameId}`]['RBI'] = result[`${item.resBatter}`][`${item.gameId}`]['RBI'] + item.rbiOnPlay
 
         // Increment Rs and ERs
-        if (item.runnerOn1stDest === 4) {
-            createEntry(item.firstRunner, item.gameId, true)
-            createEntry(item.resPitcher, item.gameId, false)
-
-            result[`${item.firstRunner}`][`${item.gameId}`]['R']++
-            result[`${item.resPitcher}`][`${item.gameId}`]['ER']++
-        }
-        
-        if (item.runnerOn2ndDest === 4) {
-            createEntry(item.secondRunner, item.gameId, true)
-            createEntry(item.resPitcher, item.gameId, false)
-
-            result[`${item.secondRunner}`][`${item.gameId}`]['R']++
-            result[`${item.resPitcher}`][`${item.gameId}`]['ER']++
-        }
-
-        if (item.runnerOn3rdDest === 4) {
-            createEntry(item.thirdRunner, item.gameId, true)
-            createEntry(item.resPitcher, item.gameId, false)
-
-            result[`${item.thirdRunner}`][`${item.gameId}`]['R']++
-            result[`${item.resPitcher}`][`${item.gameId}`]['ER']++
-        }
+        calcRuns(item.batterDest, item.resBatter, item.resPitcher, item.gameId)
+        calcRuns(item.runnerOn1stDest, item.firstRunner, item.resPitcher, item.gameId)
+        calcRuns(item.runnerOn2ndDest, item.secondRunner, item.resPitcher, item.gameId)
+        calcRuns(item.runnerOn3rdDest, item.thirdRunner, item.resPitcher, item.gameId)
     }
 
     // Increment BB
@@ -164,5 +145,17 @@ function batterStats(item) {
     }
 }
 
+function calcRuns(dest, player, pitcher, gameId) {
+    if (dest >= 4) {
+        createEntry(player, gameId, true)
+        
+        result[`${player}`][`${gameId}`]['R']++
+        
+        if (dest === 4) {
+            createEntry(pitcher, gameId, false)
+            result[`${pitcher}`][`${gameId}`]['ER']++
+        }
+    }
+}
 
 module.exports = getData
