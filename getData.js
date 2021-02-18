@@ -1,4 +1,5 @@
 const fs = require('fs')
+const { split } = require('lodash')
 const _ = require('lodash')
 
 let result = {}
@@ -10,26 +11,10 @@ function getData(file) {
     for (let item of teamObj) {
         // Ensure player and game record exists in the object
         createEntry(item.resBatter, item.gameId, true)
-
-        batterStats(item)
-
         createEntry(item.resPitcher, item.gameId, false)
 
-        // Record Outs
-        result[`${item.resPitcher}`][`${item.gameId}`]['O'] = result[`${item.resPitcher}`][`${item.gameId}`]['O'] + item.outsOnPlay
-
-        // Calculate IP
-        result[`${item.resPitcher}`][`${item.gameId}`]['IP'] = 
-            `${~~(result[`${item.resPitcher}`][`${item.gameId}`]['O']/3)}.${result[`${item.resPitcher}`][`${item.gameId}`]['O']%3}`
-
-        // Iterate Ks
-        if (item.eventType === 3) {
-            result[`${item.resPitcher}`][`${item.gameId}`]['K']++
-        }
-
-        if (item.inning === 6 && (item.outs + item.outsOnPlay) === 3) {
-            qualityStart(item.resPitcher, item.gameId)
-        }
+        batterStats(item)
+        pitcherStats(item)
     }
 
     fs.writeFileSync('data/output.json', JSON.stringify(result, null, 2))    
@@ -46,7 +31,7 @@ function createEntry(player, gameId, isBatter) {
             position: playerInfo.positionAbbreviation
         }
 
-        console.log(`player entry created: ${player}`)
+        // console.log(`player entry created: ${player}`)
     }
 
     if (!result[`${player}`][`${gameId}`]) {
@@ -72,13 +57,15 @@ function createEntry(player, gameId, isBatter) {
                 'K': 0,
                 'ER': 0,
                 'ERA': 0,
+                'BB': 0,
+                'H': 0,
                 'WHIP': 0, 
                 'K9': 0,
                 'QS': 0,
                 'SVH': 0
             }
         }
-        console.log(`game entry created: ${gameId}`)
+        // console.log(`game entry created: ${gameId}`)
     }
 }
 
@@ -91,6 +78,7 @@ function batterStats(item) {
     // Increment Hits
     if (item.hitValue > 0) {
         result[`${item.resBatter}`][`${item.gameId}`]['H']++
+        result[`${item.resPitcher}`][`${item.gameId}`]['H']++
     }
 
     // Increment HR
@@ -112,6 +100,7 @@ function batterStats(item) {
     // Increment BB
     if (item.eventType === 14 || item.eventType === 15) {
         result[`${item.resBatter}`][`${item.gameId}`]['BB']++
+        result[`${item.resPitcher}`][`${item.gameId}`]['BB']++
     }
 
     // Increment HBP
@@ -149,6 +138,30 @@ function batterStats(item) {
     }
 }
 
+function pitcherStats(item) {
+    // Record Outs
+    result[`${item.resPitcher}`][`${item.gameId}`]['O'] = result[`${item.resPitcher}`][`${item.gameId}`]['O'] + item.outsOnPlay
+
+    // Calculate IP
+    result[`${item.resPitcher}`][`${item.gameId}`]['IP'] = 
+        `${~~(result[`${item.resPitcher}`][`${item.gameId}`]['O']/3)}.${result[`${item.resPitcher}`][`${item.gameId}`]['O']%3}`
+
+    // Iterate Ks
+    if (item.eventType === 3) {
+        result[`${item.resPitcher}`][`${item.gameId}`]['K']++
+    }
+
+    if (item.inning === 6 && (item.outs + item.outsOnPlay) === 3) {
+        qualityStart(item.resPitcher, item.gameId)
+    }
+
+    // Calculate WHIP
+    result[`${item.resPitcher}`][`${item.gameId}`]['WHIP'] = calcWhip(result[`${item.resPitcher}`][`${item.gameId}`])
+
+    // Calculate K/9
+    result[`${item.resPitcher}`][`${item.gameId}`]['K9'] = calcK9(result[`${item.resPitcher}`][`${item.gameId}`])
+}
+
 function calcRuns(dest, player, pitcher, gameId) {
     if (dest >= 4) {
         createEntry(player, gameId, true)
@@ -169,6 +182,26 @@ function qualityStart(pitcher, gameId) {
     if (ip >= 6 && er <= 3) {
         result[`${pitcher}`][`${gameId}`]['QS'] = 1
     }
+}
+
+function calcWhip(player) {
+    let ip = parseInningsPitched(player['IP'])
+    return ((player['BB'] + player['H']) / ip)
+}
+
+function calcK9(player) {
+    let ipParsed = parseInningsPitched(player['IP'])
+
+    return (player['K'] * 9) / ipParsed
+}
+
+function parseInningsPitched(ipString) {
+    let splitIp = ipString.split('.')
+
+    let fullInnings = Number.parseFloat(splitIp[0])
+    let thirdInnings = Number.parseFloat(splitIp[1])
+
+    return fullInnings + (thirdInnings * (1/3))
 }
 
 module.exports = getData
