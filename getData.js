@@ -1,7 +1,9 @@
 const fs = require('fs')
 const _ = require('lodash')
 
-let result = {}
+let batterResult = {}
+let pitcherResult = {}
+
 const players = JSON.parse(fs.readFileSync(`./data/players.json`))
 
 function getData(file) {
@@ -19,25 +21,25 @@ function getData(file) {
         }
     }
 
-    fs.writeFileSync('data/output.json', JSON.stringify(result, null, 2))
+    fs.writeFileSync('data/batterOutput.json', JSON.stringify(batterResult, null, 2))
+    fs.writeFileSync('data/pitcherOutput.json', JSON.stringify(pitcherResult, null, 2))
 }
 
 function createEntry(player, gameId, isBatter) {
-    if(!result[`${player}`]) {
-        const playerInfo = players.find(p => p.ID === player)
-
-        result[`${player}`] = {
-            name: `${playerInfo.firstName} ${playerInfo.lastName}`,
-            team: playerInfo.teamAbbreviation,
-            position: playerInfo.positionAbbreviation
+    if (isBatter) {
+        if(!batterResult[`${player}`]) {
+            const playerInfo = players.find(p => p.ID === player)
+    
+            batterResult[`${player}`] = {
+                name: `${playerInfo.firstName} ${playerInfo.lastName}`,
+                team: playerInfo.teamAbbreviation,
+                position: playerInfo.positionAbbreviation
+            }
         }
 
-        // console.log(`player entry created: ${player}`)
-    }
-
-    if (!result[`${player}`][`${gameId}`]) {
-        if (isBatter) {
-            result[`${player}`][`${gameId}`] = {
+        if (!batterResult[`${player}`][`${gameId}`]) {
+        
+            batterResult[`${player}`][`${gameId}`] = {
                 'AB': 0,
                 'R': 0,
                 'H': 0,
@@ -51,9 +53,22 @@ function createEntry(player, gameId, isBatter) {
                 'XBH': 0 
             }
         }
-        else {
+    }
+    else {
+        if(!pitcherResult[`${player}`]) {
+            const playerInfo = players.find(p => p.ID === player)
+    
+            pitcherResult[`${player}`] = {
+                name: `${playerInfo.firstName} ${playerInfo.lastName}`,
+                team: playerInfo.teamAbbreviation,
+                position: playerInfo.positionAbbreviation
+            }
+        }
+
+        if (!pitcherResult[`${player}`][`${gameId}`]) {
+        
             // IP* K ERA WHIP K/9 QS SV+H
-            result[`${player}`][`${gameId}`] = {
+            pitcherResult[`${player}`][`${gameId}`] = {
                 'IP': '',
                 'SP': false,
                 'O': 0,
@@ -68,30 +83,29 @@ function createEntry(player, gameId, isBatter) {
                 'SVH': 0
             }
         }
-        // console.log(`game entry created: ${gameId}`)
     }
 }
 
 function batterStats(item) {
     // Increment AB
     if (item.abFlag === 'T') {
-        result[`${item.resBatter}`][`${item.gameId}`]['AB']++
+        batterResult[`${item.resBatter}`][`${item.gameId}`]['AB']++
     }
 
     // Increment Hits
     if (item.hitValue > 0) {
-        result[`${item.resBatter}`][`${item.gameId}`]['H']++
-        result[`${item.resPitcher}`][`${item.gameId}`]['H']++
+        batterResult[`${item.resBatter}`][`${item.gameId}`]['H']++
+        pitcherResult[`${item.resPitcher}`][`${item.gameId}`]['H']++
     }
 
     // Increment HR
     if (item.eventType === 23) {
-        result[`${item.resBatter}`][`${item.gameId}`]['HR']++
+        batterResult[`${item.resBatter}`][`${item.gameId}`]['HR']++
     }
 
     // Add any RBIs
     if (item.rbiOnPlay > 0) {
-        result[`${item.resBatter}`][`${item.gameId}`]['RBI'] = result[`${item.resBatter}`][`${item.gameId}`]['RBI'] + item.rbiOnPlay
+        batterResult[`${item.resBatter}`][`${item.gameId}`]['RBI'] = batterResult[`${item.resBatter}`][`${item.gameId}`]['RBI'] + item.rbiOnPlay
 
         // Increment Rs and ERs
         calcRuns(item.batterDest, item.resBatter, item.resPitcher, item.gameId)
@@ -102,64 +116,64 @@ function batterStats(item) {
 
     // Increment BB
     if (item.eventType === 14 || item.eventType === 15) {
-        result[`${item.resBatter}`][`${item.gameId}`]['BB']++
-        result[`${item.resPitcher}`][`${item.gameId}`]['BB']++
+        batterResult[`${item.resBatter}`][`${item.gameId}`]['BB']++
+        pitcherResult[`${item.resPitcher}`][`${item.gameId}`]['BB']++
     }
 
     // Increment HBP
     if (item.eventType === 16) {
-        result[`${item.resBatter}`][`${item.gameId}`]['HBP']++
+        batterResult[`${item.resBatter}`][`${item.gameId}`]['HBP']++
     }
 
     // Increment SF
     if (item.SFFlag === 'T') {
-        result[`${item.resBatter}`][`${item.gameId}`]['SF']++
+        batterResult[`${item.resBatter}`][`${item.gameId}`]['SF']++
     }
 
     // Increment SBs
     if (item.sbForRunnerOn1stFlag === 'T') {
         createEntry(item.firstRunner, item.gameId, true)
 
-        result[`${item.firstRunner}`][`${item.gameId}`]['SB']++
+        batterResult[`${item.firstRunner}`][`${item.gameId}`]['SB']++
     }
 
     if (item.sbForRunneron2ndFlag === 'T') {
         createEntry(item.secondRunner, item.gameId, true)
 
-        result[`${item.secondRunner}`][`${item.gameId}`]['SB']++
+        batterResult[`${item.secondRunner}`][`${item.gameId}`]['SB']++
     }
 
     if (item.sbForRunnerOn3rdFlag === 'T') {
         createEntry(item.thirdRunner, item.gameId, true)
 
-        result[`${item.thirdRunner}`][`${item.gameId}`]['SB']++
+        batterResult[`${item.thirdRunner}`][`${item.gameId}`]['SB']++
     }
 
     // Increment XBH
     if (item.eventType === 21 || item.eventType === 22 || item.eventType === 23) {
-        result[`${item.resBatter}`][`${item.gameId}`]['XBH']++
+        batterResult[`${item.resBatter}`][`${item.gameId}`]['XBH']++
     }
 
     // Calculate OBP
-    result[`${item.resBatter}`][`${item.gameId}`]['OBP'] = calcObp(result[`${item.resBatter}`][`${item.gameId}`])
+    batterResult[`${item.resBatter}`][`${item.gameId}`]['OBP'] = calcObp(batterResult[`${item.resBatter}`][`${item.gameId}`])
 }
 
 function pitcherStats(item) {
     // Is SP
     if (item.inning === 1 && item.outs === 0) {
-        result[`${item.resPitcher}`][`${item.gameId}`]['SP'] = true
+        pitcherResult[`${item.resPitcher}`][`${item.gameId}`]['SP'] = true
     }
     
     // Record Outs
-    result[`${item.resPitcher}`][`${item.gameId}`]['O'] = result[`${item.resPitcher}`][`${item.gameId}`]['O'] + item.outsOnPlay
+    pitcherResult[`${item.resPitcher}`][`${item.gameId}`]['O'] = pitcherResult[`${item.resPitcher}`][`${item.gameId}`]['O'] + item.outsOnPlay
 
     // Calculate IP
-    result[`${item.resPitcher}`][`${item.gameId}`]['IP'] = 
-        `${~~(result[`${item.resPitcher}`][`${item.gameId}`]['O']/3)}.${result[`${item.resPitcher}`][`${item.gameId}`]['O']%3}`
+    pitcherResult[`${item.resPitcher}`][`${item.gameId}`]['IP'] = 
+        `${~~(pitcherResult[`${item.resPitcher}`][`${item.gameId}`]['O']/3)}.${pitcherResult[`${item.resPitcher}`][`${item.gameId}`]['O']%3}`
 
     // Iterate Ks
     if (item.eventType === 3) {
-        result[`${item.resPitcher}`][`${item.gameId}`]['K']++
+        pitcherResult[`${item.resPitcher}`][`${item.gameId}`]['K']++
     }
 
     if (item.inning === 6 && (item.outs + item.outsOnPlay) === 3) {
@@ -167,13 +181,13 @@ function pitcherStats(item) {
     }
 
     // Calculate WHIP
-    result[`${item.resPitcher}`][`${item.gameId}`]['WHIP'] = calcWhip(result[`${item.resPitcher}`][`${item.gameId}`])
+    pitcherResult[`${item.resPitcher}`][`${item.gameId}`]['WHIP'] = calcWhip(pitcherResult[`${item.resPitcher}`][`${item.gameId}`])
 
     // Calculate K/9
-    result[`${item.resPitcher}`][`${item.gameId}`]['K9'] = calcK9(result[`${item.resPitcher}`][`${item.gameId}`])
+    pitcherResult[`${item.resPitcher}`][`${item.gameId}`]['K9'] = calcK9(pitcherResult[`${item.resPitcher}`][`${item.gameId}`])
 
     // Calculat ERA
-    result[`${item.resPitcher}`][`${item.gameId}`]['ERA'] = calcEra(result[`${item.resPitcher}`][`${item.gameId}`])
+    pitcherResult[`${item.resPitcher}`][`${item.gameId}`]['ERA'] = calcEra(pitcherResult[`${item.resPitcher}`][`${item.gameId}`])
 
     savesHolds(item)
 }
@@ -199,11 +213,11 @@ function calcRuns(dest, player, pitcher, gameId) {
     if (dest >= 4) {
         createEntry(player, gameId, true)
         
-        result[`${player}`][`${gameId}`]['R']++
+        batterResult[`${player}`][`${gameId}`]['R']++
         
         if (dest === 4) {
             createEntry(pitcher, gameId, false)
-            result[`${pitcher}`][`${gameId}`]['ER']++
+            pitcherResult[`${pitcher}`][`${gameId}`]['ER']++
         }
     }
 }
@@ -221,11 +235,11 @@ function calcObp(playerGameStats) {
  */
 
 function qualityStart(pitcher, gameId) {
-    var ip = Number.parseFloat(result[`${pitcher}`][`${gameId}`]['IP']) 
-    var er = result[`${pitcher}`][`${gameId}`]['ER']
+    var ip = Number.parseFloat(pitcherResult[`${pitcher}`][`${gameId}`]['IP']) 
+    var er = pitcherResult[`${pitcher}`][`${gameId}`]['ER']
 
     if (ip >= 6 && er <= 3) {
-        result[`${pitcher}`][`${gameId}`]['QS'] = 1
+        pitcherResult[`${pitcher}`][`${gameId}`]['QS'] = 1
     }
 }
 
@@ -248,20 +262,20 @@ function calcK9(player) {
 
 
 function savesHolds(item) {
-    if (!result[`${item.resPitcher}`])
+    if (!pitcherResult[`${item.resPitcher}`])
     {
         console.log('Pitcher does not exist')
     }
-    else if (!result[`${item.resPitcher}`][`${item.gameId}`]) {
-        console.log(`GameID does not exist for pitcher ${result[`${item.resPitcher}`]}`)
+    else if (!pitcherResult[`${item.resPitcher}`][`${item.gameId}`]) {
+        console.log(`GameID does not exist for pitcher ${pitcherResult[`${item.resPitcher}`]}`)
     }
 
-    const isSP = result[`${item.resPitcher}`][`${item.gameId}`]['SP']
+    const isSP = pitcherResult[`${item.resPitcher}`][`${item.gameId}`]['SP']
     
     if (!isSP) {
         let pitcherTeamScore = 0
         let oppTeamScore = 0
-        let ip = parseInningsPitched(result[`${item.resPitcher}`][`${item.gameId}`]['IP'])
+        let ip = parseInningsPitched(pitcherResult[`${item.resPitcher}`][`${item.gameId}`]['IP'])
    
         if (item.battingTeam === 0) {
            pitcherTeamScore = item.homeScore
@@ -294,15 +308,15 @@ function savesHolds(item) {
         if (scoreDifference >= 0 && scoreDifference <= 3) {
             if (ip <= 1 && item.endGameFlag === "T") {
                 // Record Save
-                result[`${item.resPitcher}`][`${item.gameId}`]['SVH'] = 1
+                pitcherResult[`${item.resPitcher}`][`${item.gameId}`]['SVH'] = 1
             }
             else if(ip < 3) {
-                result[`${item.resPitcher}`][`${item.gameId}`]['SVH'] = 1
+                pitcherResult[`${item.resPitcher}`][`${item.gameId}`]['SVH'] = 1
             }
         }
         else {
             // Either lost the situation or never had it, no SV+H
-            result[`${item.resPitcher}`][`${item.gameId}`]['SVH'] = 0
+            pitcherResult[`${item.resPitcher}`][`${item.gameId}`]['SVH'] = 0
         }
     }
 }
