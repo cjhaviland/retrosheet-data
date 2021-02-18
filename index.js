@@ -18,12 +18,11 @@ const getData = require('./getData')
 // csvConvert()
 
 // Step 4 - Get the data from the JSON files
-getData('2020NYN.json')
-// fs.readdir('./data/json', (err, files) => {
-//     if (err) return console.error(err)
+fs.readdir('./data/json', (err, files) => {
+    if (err) return console.error(err)
     
-//     files.forEach(file => {
-//         // console.log(file)
-//         getData(file)
-//     })
-// })
+    files.forEach(file => {
+        // console.log(file)
+        getData(file)
+    })
+})

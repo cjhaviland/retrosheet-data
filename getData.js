@@ -5,8 +5,8 @@ let result = {}
 const players = JSON.parse(fs.readFileSync(`./data/players.json`))
 
 function getData(file) {
-    const teamJson = JSON.parse(fs.readFileSync(`./data/json/${file}`))
-    const teamObj = _.filter(teamJson, t => t.gameId === 'NYN202007240')
+    const teamObj = JSON.parse(fs.readFileSync(`./data/json/${file}`))
+    // const teamObj = _.filter(teamJson, t => t.gameId === 'NYN202007240')
 
     for (let item of teamObj) {
         if (item) {
