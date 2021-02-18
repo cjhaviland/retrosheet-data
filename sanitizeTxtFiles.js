@@ -13,7 +13,7 @@ function sanitizeTxtFiles() {
                 silent: true,
               });
 
-            prependFile(`./data/txt/${file}`, 'gameId,visitingTeam,inning,battingTeam,outs,balls,strikes,visScore,homeScore,resBatter,resBatterHand,resPitcher,resPitcherHand,firstRunner,secondRunner,thirdRunner,eventText,leadoffFlag,pinchhitFlag,defensivePosition,lineupPosition,eventType,batterEventFlag,abFlag,hitValue,SHFlag,SFFlag,outsOnPlay,rbiOnPlay,wildPitchFlag,passedBallFlag,numErrors,batterDest,runnerOn1stDest,runnerOn2ndDest,runnerOn3rdDest,sbForRunnerOn1stFlag,sbForRunneron2ndFlag,sbForRunnerOn3rdFlag\n')
+            prependFile(`./data/txt/${file}`, 'gameId,visitingTeam,inning,battingTeam,outs,balls,strikes,visScore,homeScore,resBatter,resBatterHand,resPitcher,resPitcherHand,firstRunner,secondRunner,thirdRunner,eventText,leadoffFlag,pinchhitFlag,defensivePosition,lineupPosition,eventType,batterEventFlag,abFlag,hitValue,SHFlag,SFFlag,outsOnPlay,rbiOnPlay,wildPitchFlag,passedBallFlag,numErrors,batterDest,runnerOn1stDest,runnerOn2ndDest,runnerOn3rdDest,sbForRunnerOn1stFlag,sbForRunneron2ndFlag,sbForRunnerOn3rdFlag,responsiblePitcherForRunnerOn1st, responsiblePitcherForRunnerOn2nd,responsiblePitcherForRunnerOn3rd,newGameFlag,endGameFlag\n')
         })
     })
 }
