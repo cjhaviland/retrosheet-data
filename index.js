@@ -26,3 +26,10 @@ fs.readdir('./data/json', (err, files) => {
         getData(file)
     })
 })
+
+// Step 5 - Re-Format the data by player
+// let pitcherStats = JSON.parse(fs.readFileSync(`./data/pitcherOutput.json`))
+
+// for (let key in pitcherStats) {
+    
+// }
