@@ -55,7 +55,7 @@ function createEntry(player, gameId, isBatter) {
                     'HBP': 0,
                     'SF': 0,
                     'SB': 0,
-                    'OBH': 0,
+                    'OBP': 0,
                     'XBH': 0 
                 }
             )
@@ -122,13 +122,13 @@ function batterStats(item) {
     // Add any RBIs
     if (item.rbiOnPlay > 0) {
         batter.gameItem['RBI'] = batter.gameItem['RBI'] + item.rbiOnPlay
-
-        // Increment Rs and ERs
-        calcRuns(item.batterDest, item.resBatter, item.resPitcher, item.gameId)
-        calcRuns(item.runnerOn1stDest, item.firstRunner, item.responsiblePitcherForRunnerOn1st, item.gameId)
-        calcRuns(item.runnerOn2ndDest, item.secondRunner, item.responsiblePitcherForRunnerOn2nd, item.gameId)
-        calcRuns(item.runnerOn3rdDest, item.thirdRunner, item.responsiblePitcherForRunnerOn3rd, item.gameId)
     }
+    
+    // Increment Rs and ERs
+    calcRuns(item.batterDest, item.resBatter, item.resPitcher, item.gameId)
+    calcRuns(item.runnerOn1stDest, item.firstRunner, item.responsiblePitcherForRunnerOn1st, item.gameId)
+    calcRuns(item.runnerOn2ndDest, item.secondRunner, item.responsiblePitcherForRunnerOn2nd, item.gameId)
+    calcRuns(item.runnerOn3rdDest, item.thirdRunner, item.responsiblePitcherForRunnerOn3rd, item.gameId)
 
     // Increment BB
     if (item.eventType === 14 || item.eventType === 15) {

@@ -2,6 +2,8 @@ const fs = require('fs')
 const sanitizeTxtFiles = require('./sanitizeTxtFiles')
 const csvConvert = require('./csvConvert')
 const getData = require('./getData')
+const weeklyReview = require('./review/weekly')
+
 
 // fs.readdir('./data/txt', (err, files) => {
 //     if (err) return console.error(err)
@@ -28,3 +30,4 @@ const getData = require('./getData')
 // })
 
 // Step 5 - Analyze the data
+// weeklyReview()
