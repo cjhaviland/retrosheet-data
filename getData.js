@@ -41,10 +41,11 @@ function createEntry(player, gameId, isBatter) {
 
         let batterGameIndex = batterResult[`${player}`]['games'].findIndex(g => g.gameId === gameId)
         if (batterGameIndex === -1) {
-        
+            const gameDate = parseGameId(gameId)
             batterResult[`${player}`]['games'].push(
                 {
                     'gameId': gameId,
+                    'gameDate': gameDate,
                     'AB': 0,
                     'R': 0,
                     'H': 0,
@@ -75,9 +76,11 @@ function createEntry(player, gameId, isBatter) {
         let pitcherGameIndex = pitcherResult[`${player}`]['games'].findIndex(g => g.gameId === gameId)
         if (pitcherGameIndex === -1) {
             // IP* K ERA WHIP K/9 QS SV+H
+            const gameDate = parseGameId(gameId)
             pitcherResult[`${player}`]['games'].push(
                 {
                     'gameId': gameId,
+                    'gameDate': gameDate,
                     'IP': '',
                     'SP': false,
                     'O': 0,
@@ -220,6 +223,17 @@ function pitcherStats(item) {
 /**
  * Helpers
  */
+
+function parseGameId(gameId) {
+    // const homeTeam = gameId.substring(0, 3)
+    const gameDateYear = gameId.substring(3, 7)
+    const gameDateMonth = gameId.substring(7, 9)
+    const gameDateDay = gameId.substring(9, 11)
+
+    // console.log(`${gameDateYear}-${gameDateMonth}-${gameDateDay}`)
+    return `${gameDateYear}-${gameDateMonth}-${gameDateDay}`
+} 
+
 function getPlayer(playerId, gameId, isBatter) {
     let index = -1
     let gameItem = {}
@@ -242,15 +256,6 @@ function writeBatter(batterId, index, gameItem) {
 
 function writePitcher(pitcherId, index, gameItem) {
     pitcherResult[`${pitcherId}`]['games'][index] = gameItem
-}
-
-function parseInningsPitched(ipString) {
-    let splitIp = ipString.split('.')
-
-    let fullInnings = Number.parseFloat(splitIp[0])
-    let thirdInnings = Number.parseFloat(splitIp[1])
-
-    return fullInnings + (thirdInnings * (1/3))
 }
 
 /**
@@ -286,6 +291,15 @@ function calcObp(playerGameStats) {
  * Pitcher Helpers
  */
 
+function parseInningsPitched(ipString) {
+    let splitIp = ipString.split('.')
+
+    let fullInnings = Number.parseFloat(splitIp[0])
+    let thirdInnings = Number.parseFloat(splitIp[1])
+
+    return fullInnings + (thirdInnings * (1/3))
+}
+
 function qualityStart(playerId, pitcher) {
     var ip = Number.parseFloat(pitcher.gameItem['IP']) 
     var er = pitcher.gameItem['ER']
@@ -313,7 +327,6 @@ function calcK9(player) {
 
     return (player['K'] * 9) / ipParsed
 }
-
 
 function savesHolds(playerId, pitcher, item) {
     const isSP = pitcher.gameItem['SP']

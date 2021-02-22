@@ -18,18 +18,13 @@ const getData = require('./getData')
 // csvConvert()
 
 // Step 4 - Get the data from the JSON files
-fs.readdir('./data/json', (err, files) => {
-    if (err) return console.error(err)
+// fs.readdir('./data/json', (err, files) => {
+//     if (err) return console.error(err)
     
-    files.forEach(file => {
-        // console.log(file)
-        getData(file)
-    })
-})
+//     files.forEach(file => {
+//         // console.log(file)
+//         getData(file)
+//     })
+// })
 
-// Step 5 - Re-Format the data by player
-// let pitcherStats = JSON.parse(fs.readFileSync(`./data/pitcherOutput.json`))
-
-// for (let key in pitcherStats) {
-    
-// }
+// Step 5 - Analyze the data
