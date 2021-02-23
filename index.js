@@ -3,6 +3,7 @@ const sanitizeTxtFiles = require('./sanitizeTxtFiles')
 const csvConvert = require('./csvConvert')
 const getData = require('./getData')
 const weeklyReview = require('./review/weekly')
+const consistency = require('./review/consistency')
 
 
 // fs.readdir('./data/txt', (err, files) => {
@@ -31,3 +32,4 @@ const weeklyReview = require('./review/weekly')
 
 // Step 5 - Analyze the data
 // weeklyReview()
+consistency()

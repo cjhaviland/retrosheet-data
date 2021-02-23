@@ -9,7 +9,7 @@ const players = JSON.parse(fs.readFileSync(`./data/players.json`))
 function getData(file) {
     const teamObj = JSON.parse(fs.readFileSync(`./data/json/${file}`))
     // const teamJson = JSON.parse(fs.readFileSync(`./data/json/${file}`))
-    // const teamObj = _.filter(teamJson, t => t.gameId === 'NYN202007240')
+    // const teamObj = _.filter(teamJson, t => t.gameId === 'ANA202007280')
 
     for (let item of teamObj) {
         if (item) {
@@ -150,14 +150,14 @@ function batterStats(item) {
     if (item.sbForRunnerOn1stFlag === 'T') {
         createEntry(item.firstRunner, item.gameId, true)
         let firstRunner = getPlayer(item.firstRunner, item.gameId, true)
-        firstRunner['SB']++
+        firstRunner.gameItem['SB']++
         writeBatter(item.firstRunner, firstRunner.index, firstRunner.gameItem)
     }
 
     if (item.sbForRunneron2ndFlag === 'T') {
         createEntry(item.secondRunner, item.gameId, true)
         let secondRunner = getPlayer(item.secondRunner, item.gameId, true)
-        secondRunner['SB']++
+        secondRunner.gameItem['SB']++
         writeBatter(item.secondRunner, secondRunner.index, secondRunner.gameItem)
     }
 
@@ -165,7 +165,7 @@ function batterStats(item) {
         createEntry(item.thirdRunner, item.gameId, true)
 
         let thirdRunner = getPlayer(item.thirdRunner, item.gameId, true)
-        thirdRunner['SB']++
+        thirdRunner.gameItem['SB']++
         writeBatter(item.thirdRunner, thirdRunner.index, thirdRunner.gameItem)
     }
 

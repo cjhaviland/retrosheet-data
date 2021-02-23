@@ -11,16 +11,18 @@ function weeklyReview() {
         const batterObj = batters[batterId]
         
         for (let game of batterObj.games) {
-            if (!batterWeeklyStats[batterId]) {
-                batterWeeklyStats[batterId] = {}
+            const playerName = batters[batterId].name
+            
+            if (!batterWeeklyStats[playerName]) {
+                batterWeeklyStats[playerName] = {
+                }
             }
         
             let week = dayjs(game.gameDate).week()
         
-            if (!batterWeeklyStats[batterId][week]) {
-                batterWeeklyStats[batterId][week] = {
+            if (!batterWeeklyStats[playerName][week]) {
+                batterWeeklyStats[playerName][week] = {
                     "gamesPlayed": 0,
-                    "name": batters[batterId].name,
                     "R": 0,
                     "HR": 0,
                     "RBI": 0,
@@ -30,15 +32,15 @@ function weeklyReview() {
                 }
             }
         
-            let currStats = batterWeeklyStats[batterId][week]
+            let currStats = batterWeeklyStats[playerName][week]
             
-            batterWeeklyStats[batterId][week]['gamesPlayed']++
-            batterWeeklyStats[batterId][week]['R'] = currStats['R'] + game['R']
-            batterWeeklyStats[batterId][week]['HR'] = currStats['HR'] + game['HR']
-            batterWeeklyStats[batterId][week]['RBI'] = currStats['RBI'] + game['RBI']
-            batterWeeklyStats[batterId][week]['SB'] = currStats['SB'] + game['SB']
-            batterWeeklyStats[batterId][week]['XBH'] = currStats['XBH'] + game['XBH']
-            batterWeeklyStats[batterId][week]['OBP'] = currStats['OBP'] + ((game['OBP'] - currStats['OBP']) / batterWeeklyStats[batterId][week]['gamesPlayed'])
+            batterWeeklyStats[playerName][week]['gamesPlayed']++
+            batterWeeklyStats[playerName][week]['R'] = currStats['R'] + game['R']
+            batterWeeklyStats[playerName][week]['HR'] = currStats['HR'] + game['HR']
+            batterWeeklyStats[playerName][week]['RBI'] = currStats['RBI'] + game['RBI']
+            batterWeeklyStats[playerName][week]['SB'] = currStats['SB'] + game['SB']
+            batterWeeklyStats[playerName][week]['XBH'] = currStats['XBH'] + game['XBH']
+            batterWeeklyStats[playerName][week]['OBP'] = currStats['OBP'] + ((game['OBP'] - currStats['OBP']) / batterWeeklyStats[playerName][week]['gamesPlayed'])
         }
     }
 
@@ -54,16 +56,17 @@ function weeklyReview() {
         const pitcherObj = pitchers[pitcherId]
         
         for (let game of pitcherObj.games) {
-            if (!pitcherWeeklyStats[pitcherId]) {
-                pitcherWeeklyStats[pitcherId] = {}
+            const playerName = pitchers[pitcherId].name
+
+            if (!pitcherWeeklyStats[playerName]) {
+                pitcherWeeklyStats[playerName] = {}
             }
         
             let week = dayjs(game.gameDate).week()
         
-            if (!pitcherWeeklyStats[pitcherId][week]) {
-                pitcherWeeklyStats[pitcherId][week] = {
+            if (!pitcherWeeklyStats[playerName][week]) {
+                pitcherWeeklyStats[playerName][week] = {
                     "gamesPlayed": 0,
-                    "name": pitchers[pitcherId].name,
                     "K": 0,
                     "ERA": 0,
                     "WHIP": 0,
@@ -73,15 +76,15 @@ function weeklyReview() {
                 }
             }
         
-            let currStats = pitcherWeeklyStats[pitcherId][week]
+            let currStats = pitcherWeeklyStats[playerName][week]
             
-            pitcherWeeklyStats[pitcherId][week]['gamesPlayed']++
-            pitcherWeeklyStats[pitcherId][week]['K'] = currStats['K'] + game['K']
-            pitcherWeeklyStats[pitcherId][week]['ERA'] = currStats['ERA'] + ((game['ERA'] - currStats['ERA']) / pitcherWeeklyStats[pitcherId][week]['gamesPlayed'])
-            pitcherWeeklyStats[pitcherId][week]['WHIP'] = currStats['WHIP'] + ((game['WHIP'] - currStats['WHIP']) / pitcherWeeklyStats[pitcherId][week]['gamesPlayed'])
-            pitcherWeeklyStats[pitcherId][week]['K9'] = currStats['K9'] + ((game['K9'] - currStats['K9']) / pitcherWeeklyStats[pitcherId][week]['gamesPlayed'])
-            pitcherWeeklyStats[pitcherId][week]['QS'] = currStats['QS'] + game['QS']
-            pitcherWeeklyStats[pitcherId][week]['SVH'] = currStats['SVH'] + game['SVH']
+            pitcherWeeklyStats[playerName][week]['gamesPlayed']++
+            pitcherWeeklyStats[playerName][week]['K'] = currStats['K'] + game['K']
+            pitcherWeeklyStats[playerName][week]['ERA'] = currStats['ERA'] + ((game['ERA'] - currStats['ERA']) / pitcherWeeklyStats[playerName][week]['gamesPlayed'])
+            pitcherWeeklyStats[playerName][week]['WHIP'] = currStats['WHIP'] + ((game['WHIP'] - currStats['WHIP']) / pitcherWeeklyStats[playerName][week]['gamesPlayed'])
+            pitcherWeeklyStats[playerName][week]['K9'] = currStats['K9'] + ((game['K9'] - currStats['K9']) / pitcherWeeklyStats[playerName][week]['gamesPlayed'])
+            pitcherWeeklyStats[playerName][week]['QS'] = currStats['QS'] + game['QS']
+            pitcherWeeklyStats[playerName][week]['SVH'] = currStats['SVH'] + game['SVH']
         }
     }
 
