@@ -4,7 +4,7 @@ const _ = require('lodash')
 let batterResult = {}
 let pitcherResult = {}
 
-const players = JSON.parse(fs.readFileSync(`./data/json/2019_players.json`))
+const players = JSON.parse(fs.readFileSync(`./data/json/2020_players.json`))
 
 function getData(file, yearToProcess) {
     const teamObj = JSON.parse(fs.readFileSync(`./data/json/${yearToProcess}/${file}`))
