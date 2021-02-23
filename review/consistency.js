@@ -1,9 +1,9 @@
 const fs = require('fs')
 const math = require('mathjs')
 
-function consistency() {
-    const batters = JSON.parse(fs.readFileSync(`./data/output/batterWeekly.json`))
-    const pitchers = JSON.parse(fs.readFileSync(`./data/output/pitcherWeekly.json`))
+function consistency(yearToProcess) {
+    const batters = JSON.parse(fs.readFileSync(`./data/output/${yearToProcess}/batterWeekly.json`))
+    const pitchers = JSON.parse(fs.readFileSync(`./data/output/${yearToProcess}/pitcherWeekly.json`))
 
     let batterOutput = []
     let pitcherOutput = []
@@ -77,8 +77,8 @@ function consistency() {
         })
     }
     
-    fs.writeFileSync('data/output/batterVariance.json', JSON.stringify(batterOutput, null, 2))
-    fs.writeFileSync('data/output/pitcherVariance.json', JSON.stringify(pitcherOutput, null, 2))
+    fs.writeFileSync(`data/output/${yearToProcess}/batterVariance.json`, JSON.stringify(batterOutput, null, 2))
+    fs.writeFileSync(`data/output/${yearToProcess}/pitcherVariance.json`, JSON.stringify(pitcherOutput, null, 2))
 }
 
 module.exports = consistency

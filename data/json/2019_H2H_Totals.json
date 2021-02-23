@@ -1,0 +1,74 @@
+[
+    {
+        "teamName": "Young Brian",
+        "R": 1117,
+        "HR": 365,
+        "RBI": 1040,
+        "SB": 138,
+        "OBP": 0.341,
+        "XBH": 750
+    },
+    {
+        "teamName": "Beer Batters",
+        "R": 1086,
+        "HR": 319,
+        "RBI": 1021,
+        "SB": 130,
+        "OBP": 0.331,
+        "XBH": 730
+    },
+    {
+        "teamName": "MoVaughnMoProblems",
+        "R": 1169,
+        "HR": 407,
+        "RBI": 1144,
+        "SB": 103,
+        "OBP": 0.363,
+        "XBH": 855
+    },
+    {
+        "teamName": "Putnam Lakers",
+        "R": 1272,
+        "HR": 399,
+        "RBI": 1216,
+        "SB": 116,
+        "OBP": 0.359,
+        "XBH": 863
+    },
+    {
+        "teamName": "Ragnarok",
+        "R": 1207,
+        "HR": 421,
+        "RBI": 1171,
+        "SB": 125,
+        "OBP": 0.359,
+        "XBH": 833
+    },
+    {
+        "teamName": "Fuckin' Savages",
+        "R": 1059,
+        "HR": 322,
+        "RBI": 1002,
+        "SB": 80,
+        "OBP": 0.333,
+        "XBH": 721
+    },
+    {
+        "teamName": "BalorsLittleDemon",
+        "R": 1059,
+        "HR": 339,
+        "RBI": 1046,
+        "SB": 86,
+        "OBP": 0.34,
+        "XBH": 799
+    },
+    {
+        "teamName": "Acuna Ya Motha",
+        "R": 1067,
+        "HR": 314,
+        "RBI": 1028,
+        "SB": 154,
+        "OBP": 0.351,
+        "XBH": 732
+    },
+]

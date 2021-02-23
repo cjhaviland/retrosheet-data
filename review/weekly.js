@@ -3,8 +3,8 @@ const dayjs = require('dayjs')
 const weekOfYear = require('dayjs/plugin/weekOfYear')
 dayjs.extend(weekOfYear)
 
-function weeklyReview() {
-    const batters = JSON.parse(fs.readFileSync(`./data/batterOutput.json`))
+function weeklyReview(yearToProcess) {
+    const batters = JSON.parse(fs.readFileSync(`./data/output/${yearToProcess}/batterOutput.json`))
     let batterWeeklyStats = {}
 
     for (let batterId in batters) {
@@ -44,12 +44,12 @@ function weeklyReview() {
         }
     }
 
-    fs.writeFileSync('data/output/batterWeekly.json', JSON.stringify(batterWeeklyStats, null, 2))
+    fs.writeFileSync(`data/output/${yearToProcess}/batterWeekly.json`, JSON.stringify(batterWeeklyStats, null, 2))
     
     /**
      * Pitchers
      */
-    const pitchers = JSON.parse(fs.readFileSync(`./data/pitcherOutput.json`))
+    const pitchers = JSON.parse(fs.readFileSync(`./data/output/${yearToProcess}/pitcherOutput.json`))
     let pitcherWeeklyStats = {}
 
     for (let pitcherId in pitchers) {
@@ -88,7 +88,7 @@ function weeklyReview() {
         }
     }
 
-    fs.writeFileSync('data/output/pitcherWeekly.json', JSON.stringify(pitcherWeeklyStats, null, 2))
+    fs.writeFileSync(`data/output/${yearToProcess}/pitcherWeekly.json`, JSON.stringify(pitcherWeeklyStats, null, 2))
 }
 
 module.exports = weeklyReview

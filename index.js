@@ -1,11 +1,12 @@
 const fs = require('fs')
-const sanitizeTxtFiles = require('./sanitizeTxtFiles')
-const csvConvert = require('./csvConvert')
-const getData = require('./getData')
+const createPlayerList = require('./helpers/createPlayerList')
+const sanitizeTxtFiles = require('./helpers/sanitizeTxtFiles')
+const csvConvert = require('./helpers/csvConvert')
+const getData = require('./helpers/getData')
 const weeklyReview = require('./review/weekly')
 const consistency = require('./review/consistency')
 
-
+const yearToProcess = '2019'
 // fs.readdir('./data/txt', (err, files) => {
 //     if (err) return console.error(err)
 
@@ -15,21 +16,22 @@ const consistency = require('./review/consistency')
 // Step 1 - Run bevent.bat
 
 // Step 2 - Sanitize the TXT Files
-// sanitizeTxtFiles()
+// sanitizeTxtFiles(yearToProcess)
 
 // Step 3 - Convert to JSON
-// csvConvert()
+// csvConvert(yearToProcess)
 
 // Step 4 - Get the data from the JSON files
-// fs.readdir('./data/json', (err, files) => {
+// createPlayerList(yearToProcess)
+// fs.readdir(`./data/json/${yearToProcess}`, (err, files) => {
 //     if (err) return console.error(err)
     
 //     files.forEach(file => {
 //         // console.log(file)
-//         getData(file)
+//         getData(file, yearToProcess)
 //     })
 // })
 
 // Step 5 - Analyze the data
-// weeklyReview()
-consistency()
+weeklyReview(yearToProcess)
+consistency(yearToProcess)
