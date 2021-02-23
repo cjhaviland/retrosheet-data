@@ -1,7 +1,7 @@
 const fs = require('fs')
 const dayjs = require('dayjs')
-const weekOfYear = require('dayjs/plugin/weekOfYear')
-dayjs.extend(weekOfYear)
+const isoWeek = require('dayjs/plugin/isoWeek')
+dayjs.extend(isoWeek)
 
 function weeklyReview(yearToProcess) {
     const batters = JSON.parse(fs.readFileSync(`./data/output/${yearToProcess}/batterOutput.json`))
@@ -18,7 +18,7 @@ function weeklyReview(yearToProcess) {
                 }
             }
         
-            let week = dayjs(game.gameDate).week()
+            let week = dayjs(game.gameDate).isoWeek()
         
             if (!batterWeeklyStats[playerName][week]) {
                 batterWeeklyStats[playerName][week] = {
@@ -62,7 +62,7 @@ function weeklyReview(yearToProcess) {
                 pitcherWeeklyStats[playerName] = {}
             }
         
-            let week = dayjs(game.gameDate).week()
+            let week = dayjs(game.gameDate).isoWeek()
         
             if (!pitcherWeeklyStats[playerName][week]) {
                 pitcherWeeklyStats[playerName][week] = {

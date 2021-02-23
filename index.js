@@ -33,5 +33,5 @@ const yearToProcess = '2019'
 // })
 
 // Step 5 - Analyze the data
-weeklyReview(yearToProcess)
+// weeklyReview(yearToProcess)
 consistency(yearToProcess)
