@@ -6,7 +6,7 @@ const getData = require('./helpers/getData')
 const weeklyReview = require('./review/weekly')
 const consistency = require('./review/consistency')
 
-const yearToProcess = '2020'
+const yearToProcess = '2019'
 // fs.readdir('./data/txt', (err, files) => {
 //     if (err) return console.error(err)
 
