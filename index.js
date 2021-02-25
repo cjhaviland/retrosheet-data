@@ -1,3 +1,4 @@
+require('dotenv').config()
 const fs = require('fs')
 const createPlayerList = require('./helpers/createPlayerList')
 const sanitizeTxtFiles = require('./helpers/sanitizeTxtFiles')
@@ -7,6 +8,7 @@ const weeklyReview = require('./review/weekly')
 const consistency = require('./review/consistency')
 const statsReview = require('./review/statsReview')
 const searchBatters = require('./review/searchBatters')
+const { yahooFantasy } = require('./helpers/yahoo')
 
 const yearToProcess = '2019'
 // fs.readdir('./data/txt', (err, files) => {
@@ -37,5 +39,6 @@ const yearToProcess = '2019'
 // Step 5 - Analyze the data
 // weeklyReview(yearToProcess)
 // consistency(yearToProcess)
-statsReview(yearToProcess)
+// statsReview(yearToProcess)
 // searchBatters(yearToProcess)
+yahooFantasy()

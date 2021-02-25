@@ -1,0 +1,1023 @@
+{
+  "team_key": "388.l.111208.t.2",
+  "team_id": "2",
+  "name": "Beer Batters",
+  "is_owned_by_current_login": 1,
+  "url": "https://baseball.fantasysports.yahoo.com/2019/b1/111208/2",
+  "team_logos": [
+    {
+      "size": "large",
+      "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/58845401912_fb2570.jpg"
+    }
+  ],
+  "waiver_priority": 4,
+  "number_of_moves": "12",
+  "number_of_trades": "2",
+  "roster_adds": {
+    "coverage_type": "week",
+    "coverage_value": "25",
+    "value": "0"
+  },
+  "league_scoring_type": "head",
+  "has_draft_grade": 0,
+  "managers": [
+    {
+      "manager_id": "2",
+      "nickname": "Charles Haviland",
+      "guid": "4EJ3QGL6K4NIP6SQQSV4PIRMG4",
+      "felo_score": "548",
+      "felo_tier": "bronze",
+      "is_current_login": "1",
+      "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg"
+    }
+  ],
+  "roster": [
+    {
+      "player_key": "388.p.8658",
+      "player_id": "8658",
+      "name": {
+        "full": "Freddie Freeman",
+        "first": "Freddie",
+        "last": "Freeman",
+        "ascii_first": "Freddie",
+        "ascii_last": "Freeman"
+      },
+      "status": "DTD",
+      "status_full": "Day-to-Day",
+      "injury_note": "Elbow",
+      "editorial_player_key": "mlb.p.8658",
+      "editorial_team_key": "mlb.t.15",
+      "editorial_team_full_name": "Atlanta Braves",
+      "editorial_team_abbr": "Atl",
+      "uniform_number": "5",
+      "display_position": "1B",
+      "headshot": {
+        "url": "https://s.yimg.com/iu/api/res/1.2/Mu2VJGcosesVb5xaGzSC2Q--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/10012020/8658.png",
+        "size": "small"
+      },
+      "image_url": "https://s.yimg.com/iu/api/res/1.2/Mu2VJGcosesVb5xaGzSC2Q--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/10012020/8658.png",
+      "is_undroppable": "0",
+      "position_type": "B",
+      "primary_position": "1B",
+      "eligible_positions": [
+        "1B",
+        "IF",
+        "Util"
+      ],
+      "has_player_notes": 1,
+      "player_notes_last_timestamp": 1614016500,
+      "selected_position": "1B"
+    },
+    {
+      "player_key": "388.p.11118",
+      "player_id": "11118",
+      "name": {
+        "full": "Jeff McNeil",
+        "first": "Jeff",
+        "last": "McNeil",
+        "ascii_first": "Jeff",
+        "ascii_last": "McNeil"
+      },
+      "status": "DTD",
+      "status_full": "Day-to-Day",
+      "injury_note": "Wrist",
+      "editorial_player_key": "mlb.p.11118",
+      "editorial_team_key": "mlb.t.21",
+      "editorial_team_full_name": "New York Mets",
+      "editorial_team_abbr": "NYM",
+      "uniform_number": "6",
+      "display_position": "2B,3B,OF",
+      "headshot": {
+        "url": "https://s.yimg.com/iu/api/res/1.2/VtW3wSyL9._JxnNr7UmrBw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/10012020/11118.png",
+        "size": "small"
+      },
+      "image_url": "https://s.yimg.com/iu/api/res/1.2/VtW3wSyL9._JxnNr7UmrBw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/10012020/11118.png",
+      "is_undroppable": "0",
+      "position_type": "B",
+      "primary_position": "2B",
+      "eligible_positions": [
+        "2B",
+        "3B",
+        "IF",
+        "OF",
+        "Util"
+      ],
+      "selected_position": "2B"
+    },
+    {
+      "player_key": "388.p.8859",
+      "player_id": "8859",
+      "name": {
+        "full": "Wil Myers",
+        "first": "Wil",
+        "last": "Myers",
+        "ascii_first": "Wil",
+        "ascii_last": "Myers"
+      },
+      "editorial_player_key": "mlb.p.8859",
+      "editorial_team_key": "mlb.t.25",
+      "editorial_team_full_name": "San Diego Padres",
+      "editorial_team_abbr": "SD",
+      "uniform_number": "4",
+      "display_position": "1B,3B,OF",
+      "headshot": {
+        "url": "https://s.yimg.com/iu/api/res/1.2/FJdAGsMAIyULlJ8e_ZLjRA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/10012020/8859.png",
+        "size": "small"
+      },
+      "image_url": "https://s.yimg.com/iu/api/res/1.2/FJdAGsMAIyULlJ8e_ZLjRA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/10012020/8859.png",
+      "is_undroppable": "0",
+      "position_type": "B",
+      "primary_position": "1B",
+      "eligible_positions": [
+        "1B",
+        "3B",
+        "IF",
+        "OF",
+        "Util"
+      ],
+      "selected_position": "3B"
+    },
+    {
+      "player_key": "388.p.8401",
+      "player_id": "8401",
+      "name": {
+        "full": "Elvis Andrus",
+        "first": "Elvis",
+        "last": "Andrus",
+        "ascii_first": "Elvis",
+        "ascii_last": "Andrus"
+      },
+      "editorial_player_key": "mlb.p.8401",
+      "editorial_team_key": "mlb.t.11",
+      "editorial_team_full_name": "Oakland Athletics",
+      "editorial_team_abbr": "Oak",
+      "uniform_number": "17",
+      "display_position": "SS",
+      "headshot": {
+        "url": "https://s.yimg.com/iu/api/res/1.2/Bv2Xc36U7vefNHfPPMYcTQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/10012020/8401.png",
+        "size": "small"
+      },
+      "image_url": "https://s.yimg.com/iu/api/res/1.2/Bv2Xc36U7vefNHfPPMYcTQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/10012020/8401.png",
+      "is_undroppable": "0",
+      "position_type": "B",
+      "primary_position": "SS",
+      "eligible_positions": [
+        "SS",
+        "IF",
+        "Util"
+      ],
+      "has_player_notes": 1,
+      "player_notes_last_timestamp": 1613602459,
+      "selected_position": "SS"
+    },
+    {
+      "player_key": "388.p.9247",
+      "player_id": "9247",
+      "name": {
+        "full": "Jean Segura",
+        "first": "Jean",
+        "last": "Segura",
+        "ascii_first": "Jean",
+        "ascii_last": "Segura"
+      },
+      "editorial_player_key": "mlb.p.9247",
+      "editorial_team_key": "mlb.t.22",
+      "editorial_team_full_name": "Philadelphia Phillies",
+      "editorial_team_abbr": "Phi",
+      "uniform_number": "2",
+      "display_position": "SS",
+      "headshot": {
+        "url": "https://s.yimg.com/iu/api/res/1.2/PdYTTwoTd86agehw4oCfnw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/10012020/9247.png",
+        "size": "small"
+      },
+      "image_url": "https://s.yimg.com/iu/api/res/1.2/PdYTTwoTd86agehw4oCfnw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/10012020/9247.png",
+      "is_undroppable": "0",
+      "position_type": "B",
+      "primary_position": "SS",
+      "eligible_positions": [
+        "SS",
+        "IF",
+        "Util"
+      ],
+      "selected_position": "IF"
+    },
+    {
+      "player_key": "388.p.9351",
+      "player_id": "9351",
+      "name": {
+        "full": "Khris Davis",
+        "first": "Khris",
+        "last": "Davis",
+        "ascii_first": "Khris",
+        "ascii_last": "Davis"
+      },
+      "editorial_player_key": "mlb.p.9351",
+      "editorial_team_key": "mlb.t.13",
+      "editorial_team_full_name": "Texas Rangers",
+      "editorial_team_abbr": "Tex",
+      "uniform_number": "2",
+      "display_position": "OF",
+      "headshot": {
+        "url": "https://s.yimg.com/iu/api/res/1.2/3bfOrLbU1G8uqQPLFOULdA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/04152019/9351.png",
+        "size": "small"
+      },
+      "image_url": "https://s.yimg.com/iu/api/res/1.2/3bfOrLbU1G8uqQPLFOULdA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/04152019/9351.png",
+      "is_undroppable": "0",
+      "position_type": "B",
+      "primary_position": "OF",
+      "eligible_positions": [
+        "OF",
+        "Util"
+      ],
+      "selected_position": "OF"
+    },
+    {
+      "player_key": "388.p.9861",
+      "player_id": "9861",
+      "name": {
+        "full": "Kyle Schwarber",
+        "first": "Kyle",
+        "last": "Schwarber",
+        "ascii_first": "Kyle",
+        "ascii_last": "Schwarber"
+      },
+      "editorial_player_key": "mlb.p.9861",
+      "editorial_team_key": "mlb.t.20",
+      "editorial_team_full_name": "Washington Nationals",
+      "editorial_team_abbr": "Was",
+      "uniform_number": "12",
+      "display_position": "OF",
+      "headshot": {
+        "url": "https://s.yimg.com/iu/api/res/1.2/oZgmt.I4UxBYd5o_4L69Pw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/10012020/9861.png",
+        "size": "small"
+      },
+      "image_url": "https://s.yimg.com/iu/api/res/1.2/oZgmt.I4UxBYd5o_4L69Pw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/10012020/9861.png",
+      "is_undroppable": "0",
+      "position_type": "B",
+      "primary_position": "OF",
+      "eligible_positions": [
+        "OF",
+        "Util"
+      ],
+      "selected_position": "OF"
+    },
+    {
+      "player_key": "388.p.8762",
+      "player_id": "8762",
+      "name": {
+        "full": "Lorenzo Cain",
+        "first": "Lorenzo",
+        "last": "Cain",
+        "ascii_first": "Lorenzo",
+        "ascii_last": "Cain"
+      },
+      "editorial_player_key": "mlb.p.8762",
+      "editorial_team_key": "mlb.t.8",
+      "editorial_team_full_name": "Milwaukee Brewers",
+      "editorial_team_abbr": "Mil",
+      "uniform_number": "6",
+      "display_position": "OF",
+      "headshot": {
+        "url": "https://s.yimg.com/iu/api/res/1.2/F4PMO_68ETAgmBPH1JAeEQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/10012020/8762.png",
+        "size": "small"
+      },
+      "image_url": "https://s.yimg.com/iu/api/res/1.2/F4PMO_68ETAgmBPH1JAeEQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/10012020/8762.png",
+      "is_undroppable": "0",
+      "position_type": "B",
+      "primary_position": "OF",
+      "eligible_positions": [
+        "OF",
+        "Util"
+      ],
+      "selected_position": "OF"
+    },
+    {
+      "player_key": "388.p.9591",
+      "player_id": "9591",
+      "name": {
+        "full": "Eddie Rosario",
+        "first": "Eddie",
+        "last": "Rosario",
+        "ascii_first": "Eddie",
+        "ascii_last": "Rosario"
+      },
+      "editorial_player_key": "mlb.p.9591",
+      "editorial_team_key": "mlb.t.5",
+      "editorial_team_full_name": "Cleveland Indians",
+      "editorial_team_abbr": "Cle",
+      "uniform_number": "9",
+      "display_position": "OF",
+      "headshot": {
+        "url": "https://s.yimg.com/iu/api/res/1.2/EyqsjJTq8LQy.m0lejuluw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/10012020/9591.png",
+        "size": "small"
+      },
+      "image_url": "https://s.yimg.com/iu/api/res/1.2/EyqsjJTq8LQy.m0lejuluw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/10012020/9591.png",
+      "is_undroppable": "0",
+      "position_type": "B",
+      "primary_position": "OF",
+      "eligible_positions": [
+        "OF",
+        "Util"
+      ],
+      "selected_position": "Util"
+    },
+    {
+      "player_key": "388.p.10095",
+      "player_id": "10095",
+      "name": {
+        "full": "Max Kepler",
+        "first": "Max",
+        "last": "Kepler",
+        "ascii_first": "Max",
+        "ascii_last": "Kepler"
+      },
+      "editorial_player_key": "mlb.p.10095",
+      "editorial_team_key": "mlb.t.9",
+      "editorial_team_full_name": "Minnesota Twins",
+      "editorial_team_abbr": "Min",
+      "uniform_number": "26",
+      "display_position": "OF",
+      "headshot": {
+        "url": "https://s.yimg.com/iu/api/res/1.2/gaPgatLLEuMQNv6dQbKD7Q--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/10012020/10095.png",
+        "size": "small"
+      },
+      "image_url": "https://s.yimg.com/iu/api/res/1.2/gaPgatLLEuMQNv6dQbKD7Q--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/10012020/10095.png",
+      "is_undroppable": "0",
+      "position_type": "B",
+      "primary_position": "OF",
+      "eligible_positions": [
+        "OF",
+        "Util"
+      ],
+      "selected_position": "Util"
+    },
+    {
+      "player_key": "388.p.9116",
+      "player_id": "9116",
+      "name": {
+        "full": "Francisco Lindor",
+        "first": "Francisco",
+        "last": "Lindor",
+        "ascii_first": "Francisco",
+        "ascii_last": "Lindor"
+      },
+      "editorial_player_key": "mlb.p.9116",
+      "editorial_team_key": "mlb.t.21",
+      "editorial_team_full_name": "New York Mets",
+      "editorial_team_abbr": "NYM",
+      "uniform_number": "12",
+      "display_position": "SS",
+      "headshot": {
+        "url": "https://s.yimg.com/iu/api/res/1.2/N.8.Xt0xuOtglUnpCjLJng--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/10012020/9116.png",
+        "size": "small"
+      },
+      "image_url": "https://s.yimg.com/iu/api/res/1.2/N.8.Xt0xuOtglUnpCjLJng--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/10012020/9116.png",
+      "is_undroppable": "0",
+      "position_type": "B",
+      "primary_position": "SS",
+      "eligible_positions": [
+        "SS",
+        "IF",
+        "Util"
+      ],
+      "has_player_notes": 1,
+      "player_notes_last_timestamp": 1614017128,
+      "selected_position": "Util"
+    },
+    {
+      "player_key": "388.p.8949",
+      "player_id": "8949",
+      "name": {
+        "full": "DJ LeMahieu",
+        "first": "DJ",
+        "last": "LeMahieu",
+        "ascii_first": "DJ",
+        "ascii_last": "LeMahieu"
+      },
+      "editorial_player_key": "mlb.p.8949",
+      "editorial_team_key": "mlb.t.10",
+      "editorial_team_full_name": "New York Yankees",
+      "editorial_team_abbr": "NYY",
+      "uniform_number": "26",
+      "display_position": "1B,2B,3B",
+      "headshot": {
+        "url": "https://s.yimg.com/iu/api/res/1.2/egE4dTQ2ODSCDlJBG.pkwQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/10012020/8949.png",
+        "size": "small"
+      },
+      "image_url": "https://s.yimg.com/iu/api/res/1.2/egE4dTQ2ODSCDlJBG.pkwQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/10012020/8949.png",
+      "is_undroppable": "0",
+      "position_type": "B",
+      "primary_position": "1B",
+      "eligible_positions": [
+        "1B",
+        "2B",
+        "3B",
+        "IF",
+        "Util"
+      ],
+      "selected_position": "BN"
+    },
+    {
+      "player_key": "388.p.10117",
+      "player_id": "10117",
+      "name": {
+        "full": "Mallex Smith",
+        "first": "Mallex",
+        "last": "Smith",
+        "ascii_first": "Mallex",
+        "ascii_last": "Smith"
+      },
+      "status": "NA",
+      "status_full": "Not Active",
+      "editorial_player_key": "mlb.p.10117",
+      "editorial_team_key": "mlb.t.21",
+      "editorial_team_full_name": "New York Mets",
+      "editorial_team_abbr": "NYM",
+      "uniform_number": "0",
+      "display_position": "OF",
+      "headshot": {
+        "url": "https://s.yimg.com/iu/api/res/1.2/_aKPEmFsFE50XPuU9JJZKQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/10012020/10117.png",
+        "size": "small"
+      },
+      "image_url": "https://s.yimg.com/iu/api/res/1.2/_aKPEmFsFE50XPuU9JJZKQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/10012020/10117.png",
+      "is_undroppable": "0",
+      "position_type": "B",
+      "primary_position": "OF",
+      "eligible_positions": [
+        "OF",
+        "Util",
+        "NA"
+      ],
+      "selected_position": "BN"
+    },
+    {
+      "player_key": "388.p.11095",
+      "player_id": "11095",
+      "name": {
+        "full": "Oscar Mercado",
+        "first": "Oscar",
+        "last": "Mercado",
+        "ascii_first": "Oscar",
+        "ascii_last": "Mercado"
+      },
+      "editorial_player_key": "mlb.p.11095",
+      "editorial_team_key": "mlb.t.5",
+      "editorial_team_full_name": "Cleveland Indians",
+      "editorial_team_abbr": "Cle",
+      "uniform_number": "35",
+      "display_position": "OF",
+      "headshot": {
+        "url": "https://s.yimg.com/iu/api/res/1.2/.h5HsE2dRbgMlAFtXt.8ZA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/10012020/11095.png",
+        "size": "small"
+      },
+      "image_url": "https://s.yimg.com/iu/api/res/1.2/.h5HsE2dRbgMlAFtXt.8ZA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/10012020/11095.png",
+      "is_undroppable": "0",
+      "position_type": "B",
+      "primary_position": "OF",
+      "eligible_positions": [
+        "OF",
+        "Util"
+      ],
+      "selected_position": "BN"
+    },
+    {
+      "player_key": "388.p.10616",
+      "player_id": "10616",
+      "name": {
+        "full": "Lourdes Gurriel Jr.",
+        "first": "Lourdes",
+        "last": "Gurriel Jr.",
+        "ascii_first": "Lourdes",
+        "ascii_last": "Gurriel Jr."
+      },
+      "editorial_player_key": "mlb.p.10616",
+      "editorial_team_key": "mlb.t.14",
+      "editorial_team_full_name": "Toronto Blue Jays",
+      "editorial_team_abbr": "Tor",
+      "uniform_number": "13",
+      "display_position": "2B,SS,OF",
+      "headshot": {
+        "url": "https://s.yimg.com/iu/api/res/1.2/lSX8WW6VXxhPNd0hcAGaBw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/10012020/10616.png",
+        "size": "small"
+      },
+      "image_url": "https://s.yimg.com/iu/api/res/1.2/lSX8WW6VXxhPNd0hcAGaBw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/10012020/10616.png",
+      "is_undroppable": "0",
+      "position_type": "B",
+      "primary_position": "2B",
+      "eligible_positions": [
+        "2B",
+        "SS",
+        "IF",
+        "OF",
+        "Util"
+      ],
+      "has_player_notes": 1,
+      "player_notes_last_timestamp": 1613792412,
+      "selected_position": "BN"
+    },
+    {
+      "player_key": "388.p.10420",
+      "player_id": "10420",
+      "name": {
+        "full": "Austin Riley",
+        "first": "Austin",
+        "last": "Riley",
+        "ascii_first": "Austin",
+        "ascii_last": "Riley"
+      },
+      "editorial_player_key": "mlb.p.10420",
+      "editorial_team_key": "mlb.t.15",
+      "editorial_team_full_name": "Atlanta Braves",
+      "editorial_team_abbr": "Atl",
+      "uniform_number": "27",
+      "display_position": "3B,OF",
+      "headshot": {
+        "url": "https://s.yimg.com/iu/api/res/1.2/87EKrRlyG2Au6ui_I7.DHg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/10012020/10420.png",
+        "size": "small"
+      },
+      "image_url": "https://s.yimg.com/iu/api/res/1.2/87EKrRlyG2Au6ui_I7.DHg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/10012020/10420.png",
+      "is_undroppable": "0",
+      "position_type": "B",
+      "primary_position": "3B",
+      "eligible_positions": [
+        "3B",
+        "IF",
+        "OF",
+        "Util"
+      ],
+      "selected_position": "BN"
+    },
+    {
+      "player_key": "388.p.10000",
+      "player_id": "10000",
+      "name": {
+        "full": "Nomar Mazara",
+        "first": "Nomar",
+        "last": "Mazara",
+        "ascii_first": "Nomar",
+        "ascii_last": "Mazara"
+      },
+      "editorial_player_key": "mlb.p.10000",
+      "editorial_team_key": "mlb.t.6",
+      "editorial_team_full_name": "Detroit Tigers",
+      "editorial_team_abbr": "Det",
+      "uniform_number": "30",
+      "display_position": "OF",
+      "headshot": {
+        "url": "https://s.yimg.com/iu/api/res/1.2/4_8DGbqV7VmBoaOqXI1hxA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/10012020/10000.png",
+        "size": "small"
+      },
+      "image_url": "https://s.yimg.com/iu/api/res/1.2/4_8DGbqV7VmBoaOqXI1hxA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/10012020/10000.png",
+      "is_undroppable": "0",
+      "position_type": "B",
+      "primary_position": "OF",
+      "eligible_positions": [
+        "OF",
+        "Util"
+      ],
+      "selected_position": "BN"
+    },
+    {
+      "player_key": "388.p.10584",
+      "player_id": "10584",
+      "name": {
+        "full": "Kyle Lewis",
+        "first": "Kyle",
+        "last": "Lewis",
+        "ascii_first": "Kyle",
+        "ascii_last": "Lewis"
+      },
+      "editorial_player_key": "mlb.p.10584",
+      "editorial_team_key": "mlb.t.12",
+      "editorial_team_full_name": "Seattle Mariners",
+      "editorial_team_abbr": "Sea",
+      "uniform_number": "1",
+      "display_position": "OF",
+      "headshot": {
+        "url": "https://s.yimg.com/iu/api/res/1.2/bSzne4UvDVd9_hEaOL83cw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/10012020/10584.png",
+        "size": "small"
+      },
+      "image_url": "https://s.yimg.com/iu/api/res/1.2/bSzne4UvDVd9_hEaOL83cw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/10012020/10584.png",
+      "is_undroppable": "0",
+      "position_type": "B",
+      "primary_position": "OF",
+      "eligible_positions": [
+        "OF",
+        "Util"
+      ],
+      "selected_position": "BN"
+    },
+    {
+      "player_key": "388.p.10069",
+      "player_id": "10069",
+      "name": {
+        "full": "Domingo Germán",
+        "first": "Domingo",
+        "last": "Germán",
+        "ascii_first": "Domingo",
+        "ascii_last": "Germán"
+      },
+      "status": "DTD",
+      "status_full": "Day-to-Day",
+      "injury_note": "Personal",
+      "editorial_player_key": "mlb.p.10069",
+      "editorial_team_key": "mlb.t.10",
+      "editorial_team_full_name": "New York Yankees",
+      "editorial_team_abbr": "NYY",
+      "uniform_number": "55",
+      "display_position": "SP,RP",
+      "headshot": {
+        "url": "https://s.yimg.com/iu/api/res/1.2/pL4huol5oA5GHz_PWdghXg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/04032019/10069.png",
+        "size": "small"
+      },
+      "image_url": "https://s.yimg.com/iu/api/res/1.2/pL4huol5oA5GHz_PWdghXg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/04032019/10069.png",
+      "is_undroppable": "0",
+      "position_type": "P",
+      "primary_position": "SP",
+      "eligible_positions": [
+        "SP",
+        "RP",
+        "P"
+      ],
+      "selected_position": "SP"
+    },
+    {
+      "player_key": "388.p.9872",
+      "player_id": "9872",
+      "name": {
+        "full": "José Berríos",
+        "first": "José",
+        "last": "Berríos",
+        "ascii_first": "José",
+        "ascii_last": "Berríos"
+      },
+      "editorial_player_key": "mlb.p.9872",
+      "editorial_team_key": "mlb.t.9",
+      "editorial_team_full_name": "Minnesota Twins",
+      "editorial_team_abbr": "Min",
+      "uniform_number": "17",
+      "display_position": "SP",
+      "headshot": {
+        "url": "https://s.yimg.com/iu/api/res/1.2/cKnaJ77nB6mh3nwxkeOr4g--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/10012020/9872.png",
+        "size": "small"
+      },
+      "image_url": "https://s.yimg.com/iu/api/res/1.2/cKnaJ77nB6mh3nwxkeOr4g--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/10012020/9872.png",
+      "is_undroppable": "0",
+      "position_type": "P",
+      "primary_position": "SP",
+      "eligible_positions": [
+        "SP",
+        "P"
+      ],
+      "selected_position": "SP"
+    },
+    {
+      "player_key": "388.p.8562",
+      "player_id": "8562",
+      "name": {
+        "full": "Stephen Strasburg",
+        "first": "Stephen",
+        "last": "Strasburg",
+        "ascii_first": "Stephen",
+        "ascii_last": "Strasburg"
+      },
+      "editorial_player_key": "mlb.p.8562",
+      "editorial_team_key": "mlb.t.20",
+      "editorial_team_full_name": "Washington Nationals",
+      "editorial_team_abbr": "Was",
+      "uniform_number": "37",
+      "display_position": "SP",
+      "headshot": {
+        "url": "https://s.yimg.com/iu/api/res/1.2/aQMyMloQ1SH6.Bh6COkbbg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/10012020/8562.png",
+        "size": "small"
+      },
+      "image_url": "https://s.yimg.com/iu/api/res/1.2/aQMyMloQ1SH6.Bh6COkbbg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/10012020/8562.png",
+      "is_undroppable": "0",
+      "position_type": "P",
+      "primary_position": "SP",
+      "eligible_positions": [
+        "SP",
+        "P"
+      ],
+      "has_player_notes": 1,
+      "player_notes_last_timestamp": 1613948020,
+      "selected_position": "SP"
+    },
+    {
+      "player_key": "388.p.9173",
+      "player_id": "9173",
+      "name": {
+        "full": "Miles Mikolas",
+        "first": "Miles",
+        "last": "Mikolas",
+        "ascii_first": "Miles",
+        "ascii_last": "Mikolas"
+      },
+      "editorial_player_key": "mlb.p.9173",
+      "editorial_team_key": "mlb.t.24",
+      "editorial_team_full_name": "St. Louis Cardinals",
+      "editorial_team_abbr": "StL",
+      "uniform_number": "39",
+      "display_position": "SP",
+      "headshot": {
+        "url": "https://s.yimg.com/iu/api/res/1.2/u5ddfDq46RtMIApokBmIFA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/10012020/9173.png",
+        "size": "small"
+      },
+      "image_url": "https://s.yimg.com/iu/api/res/1.2/u5ddfDq46RtMIApokBmIFA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/10012020/9173.png",
+      "is_undroppable": "0",
+      "position_type": "P",
+      "primary_position": "SP",
+      "eligible_positions": [
+        "SP",
+        "P"
+      ],
+      "has_player_notes": 1,
+      "player_notes_last_timestamp": 1613574878,
+      "selected_position": "SP"
+    },
+    {
+      "player_key": "388.p.9217",
+      "player_id": "9217",
+      "name": {
+        "full": "Dallas Keuchel",
+        "first": "Dallas",
+        "last": "Keuchel",
+        "ascii_first": "Dallas",
+        "ascii_last": "Keuchel"
+      },
+      "editorial_player_key": "mlb.p.9217",
+      "editorial_team_key": "mlb.t.4",
+      "editorial_team_full_name": "Chicago White Sox",
+      "editorial_team_abbr": "CWS",
+      "uniform_number": "60",
+      "display_position": "SP",
+      "headshot": {
+        "url": "https://s.yimg.com/iu/api/res/1.2/hgmq0pz3Vp3526U2idYuHA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/10012020/9217.png",
+        "size": "small"
+      },
+      "image_url": "https://s.yimg.com/iu/api/res/1.2/hgmq0pz3Vp3526U2idYuHA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/10012020/9217.png",
+      "is_undroppable": "0",
+      "position_type": "P",
+      "primary_position": "SP",
+      "eligible_positions": [
+        "SP",
+        "P"
+      ],
+      "selected_position": "SP"
+    },
+    {
+      "player_key": "388.p.8480",
+      "player_id": "8480",
+      "name": {
+        "full": "Craig Stammen",
+        "first": "Craig",
+        "last": "Stammen",
+        "ascii_first": "Craig",
+        "ascii_last": "Stammen"
+      },
+      "editorial_player_key": "mlb.p.8480",
+      "editorial_team_key": "mlb.t.25",
+      "editorial_team_full_name": "San Diego Padres",
+      "editorial_team_abbr": "SD",
+      "uniform_number": "34",
+      "display_position": "RP",
+      "headshot": {
+        "url": "https://s.yimg.com/iu/api/res/1.2/H7qolTvRnHTjFhO1rp1dPA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/10012020/8480.png",
+        "size": "small"
+      },
+      "image_url": "https://s.yimg.com/iu/api/res/1.2/H7qolTvRnHTjFhO1rp1dPA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/10012020/8480.png",
+      "is_undroppable": "0",
+      "position_type": "P",
+      "primary_position": "RP",
+      "eligible_positions": [
+        "RP",
+        "P"
+      ],
+      "selected_position": "RP"
+    },
+    {
+      "player_key": "388.p.9388",
+      "player_id": "9388",
+      "name": {
+        "full": "Ryan Brasier",
+        "first": "Ryan",
+        "last": "Brasier",
+        "ascii_first": "Ryan",
+        "ascii_last": "Brasier"
+      },
+      "editorial_player_key": "mlb.p.9388",
+      "editorial_team_key": "mlb.t.2",
+      "editorial_team_full_name": "Boston Red Sox",
+      "editorial_team_abbr": "Bos",
+      "uniform_number": "70",
+      "display_position": "RP",
+      "headshot": {
+        "url": "https://s.yimg.com/iu/api/res/1.2/6uJGZ8YTziHdj3Mu9_mkcg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/10012020/9388.png",
+        "size": "small"
+      },
+      "image_url": "https://s.yimg.com/iu/api/res/1.2/6uJGZ8YTziHdj3Mu9_mkcg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/10012020/9388.png",
+      "is_undroppable": "0",
+      "position_type": "P",
+      "primary_position": "RP",
+      "eligible_positions": [
+        "RP",
+        "P"
+      ],
+      "selected_position": "RP"
+    },
+    {
+      "player_key": "388.p.8955",
+      "player_id": "8955",
+      "name": {
+        "full": "Brad Hand",
+        "first": "Brad",
+        "last": "Hand",
+        "ascii_first": "Brad",
+        "ascii_last": "Hand"
+      },
+      "editorial_player_key": "mlb.p.8955",
+      "editorial_team_key": "mlb.t.20",
+      "editorial_team_full_name": "Washington Nationals",
+      "editorial_team_abbr": "Was",
+      "uniform_number": "52",
+      "display_position": "RP",
+      "headshot": {
+        "url": "https://s.yimg.com/iu/api/res/1.2/fZGV6MNBO33mCc6MJs5OnQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/10012020/8955.png",
+        "size": "small"
+      },
+      "image_url": "https://s.yimg.com/iu/api/res/1.2/fZGV6MNBO33mCc6MJs5OnQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/10012020/8955.png",
+      "is_undroppable": "0",
+      "position_type": "P",
+      "primary_position": "RP",
+      "eligible_positions": [
+        "RP",
+        "P"
+      ],
+      "selected_position": "RP"
+    },
+    {
+      "player_key": "388.p.8174",
+      "player_id": "8174",
+      "name": {
+        "full": "Wade Davis",
+        "first": "Wade",
+        "last": "Davis",
+        "ascii_first": "Wade",
+        "ascii_last": "Davis"
+      },
+      "status": "NA",
+      "status_full": "Not Active",
+      "editorial_player_key": "mlb.p.8174",
+      "editorial_team_key": "mlb.t.7",
+      "editorial_team_full_name": "Kansas City Royals",
+      "editorial_team_abbr": "KC",
+      "uniform_number": "71",
+      "display_position": "RP",
+      "headshot": {
+        "url": "https://s.yimg.com/iu/api/res/1.2/Vo8Kp3By9BydfwGWnbCfYQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/10012020/8174.png",
+        "size": "small"
+      },
+      "image_url": "https://s.yimg.com/iu/api/res/1.2/Vo8Kp3By9BydfwGWnbCfYQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/10012020/8174.png",
+      "is_undroppable": "0",
+      "position_type": "P",
+      "primary_position": "RP",
+      "eligible_positions": [
+        "RP",
+        "P",
+        "NA"
+      ],
+      "selected_position": "P"
+    },
+    {
+      "player_key": "388.p.9672",
+      "player_id": "9672",
+      "name": {
+        "full": "Blake Treinen",
+        "first": "Blake",
+        "last": "Treinen",
+        "ascii_first": "Blake",
+        "ascii_last": "Treinen"
+      },
+      "status": "DTD",
+      "status_full": "Day-to-Day",
+      "injury_note": "Back",
+      "editorial_player_key": "mlb.p.9672",
+      "editorial_team_key": "mlb.t.19",
+      "editorial_team_full_name": "Los Angeles Dodgers",
+      "editorial_team_abbr": "LAD",
+      "uniform_number": "49",
+      "display_position": "RP",
+      "headshot": {
+        "url": "https://s.yimg.com/iu/api/res/1.2/OgNY6lyET.GSCTuxVMVQiw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/10012020/9672.png",
+        "size": "small"
+      },
+      "image_url": "https://s.yimg.com/iu/api/res/1.2/OgNY6lyET.GSCTuxVMVQiw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/10012020/9672.png",
+      "is_undroppable": "0",
+      "position_type": "P",
+      "primary_position": "RP",
+      "eligible_positions": [
+        "RP",
+        "P"
+      ],
+      "selected_position": "P"
+    },
+    {
+      "player_key": "388.p.7257",
+      "player_id": "7257",
+      "name": {
+        "full": "Zack Greinke",
+        "first": "Zack",
+        "last": "Greinke",
+        "ascii_first": "Zack",
+        "ascii_last": "Greinke"
+      },
+      "editorial_player_key": "mlb.p.7257",
+      "editorial_team_key": "mlb.t.18",
+      "editorial_team_full_name": "Houston Astros",
+      "editorial_team_abbr": "Hou",
+      "uniform_number": "21",
+      "display_position": "SP",
+      "headshot": {
+        "url": "https://s.yimg.com/iu/api/res/1.2/K0abRA62ml1AvWUOUxvxuQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/10012020/7257.png",
+        "size": "small"
+      },
+      "image_url": "https://s.yimg.com/iu/api/res/1.2/K0abRA62ml1AvWUOUxvxuQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/10012020/7257.png",
+      "is_undroppable": "0",
+      "position_type": "P",
+      "primary_position": "SP",
+      "eligible_positions": [
+        "SP",
+        "P"
+      ],
+      "selected_position": "P"
+    },
+    {
+      "player_key": "388.p.8419",
+      "player_id": "8419",
+      "name": {
+        "full": "Rick Porcello",
+        "first": "Rick",
+        "last": "Porcello",
+        "ascii_first": "Rick",
+        "ascii_last": "Porcello"
+      },
+      "status": "NA",
+      "status_full": "Not Active",
+      "editorial_player_key": "mlb.p.8419",
+      "editorial_team_key": "mlb.t.21",
+      "editorial_team_full_name": "New York Mets",
+      "editorial_team_abbr": "NYM",
+      "uniform_number": "22",
+      "display_position": "SP",
+      "headshot": {
+        "url": "https://s.yimg.com/iu/api/res/1.2/TeJYs6ZsNmG7_1XVeymD7A--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/10012020/8419.png",
+        "size": "small"
+      },
+      "image_url": "https://s.yimg.com/iu/api/res/1.2/TeJYs6ZsNmG7_1XVeymD7A--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/10012020/8419.png",
+      "is_undroppable": "0",
+      "position_type": "P",
+      "primary_position": "SP",
+      "eligible_positions": [
+        "SP",
+        "P",
+        "NA"
+      ],
+      "has_player_notes": 1,
+      "player_notes_last_timestamp": 1613748329,
+      "selected_position": "BN"
+    },
+    {
+      "player_key": "388.p.9719",
+      "player_id": "9719",
+      "name": {
+        "full": "David Peralta",
+        "first": "David",
+        "last": "Peralta",
+        "ascii_first": "David",
+        "ascii_last": "Peralta"
+      },
+      "status": "DTD",
+      "status_full": "Day-to-Day",
+      "injury_note": "Shoulder",
+      "editorial_player_key": "mlb.p.9719",
+      "editorial_team_key": "mlb.t.29",
+      "editorial_team_full_name": "Arizona Diamondbacks",
+      "editorial_team_abbr": "Ari",
+      "uniform_number": "6",
+      "display_position": "OF",
+      "headshot": {
+        "url": "https://s.yimg.com/iu/api/res/1.2/U8ptqW5mbD3K9.lohE9zHg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/10012020/9719.png",
+        "size": "small"
+      },
+      "image_url": "https://s.yimg.com/iu/api/res/1.2/U8ptqW5mbD3K9.lohE9zHg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/10012020/9719.png",
+      "is_undroppable": "0",
+      "position_type": "B",
+      "primary_position": "OF",
+      "eligible_positions": [
+        "OF",
+        "Util"
+      ],
+      "selected_position": "DL"
+    }
+  ]
+}

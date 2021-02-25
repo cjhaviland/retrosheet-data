@@ -12,9 +12,11 @@
   "dependencies": {
     "convert-csv-to-json": "^1.3.0",
     "dayjs": "^1.10.4",
+    "dotenv": "^8.2.0",
     "lodash": "^4.17.20",
     "mathjs": "^9.2.0",
     "prepend-file": "^2.0.0",
-    "replace": "^1.2.0"
+    "replace": "^1.2.0",
+    "yahoo-fantasy": "^4.1.2"
   }
 }
