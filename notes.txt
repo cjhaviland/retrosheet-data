@@ -1,0 +1,7 @@
+//  ([A-z]){1,3} - (\w*,)*(\w*)
+// let batters = []
+// let pitchers = []
+// document.querySelectorAll('table#statTable0 tr td:nth-child(1)').forEach(x => batters.push(x.innerText))
+// document.querySelectorAll('table#statTable1 tr td:nth-child(1)').forEach(x => pitchers.push(x.innerText))
+// batters
+// pitchers

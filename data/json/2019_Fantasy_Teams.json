@@ -1,0 +1,35 @@
+{
+    "CJ": {
+        "batters":["Francisco Lindor", "Freddie Freeman", "DJ LeMahieu", "Jeff McNeil", "Lourdes Gurriel", "Wil Myers", "Eddie Rosario", "Kyle Lewis", "Max Kepler", "Jean Segura", "Kyle Schwarber", "Austin Riley", "Lorenzo Cain", "David Peralta", "Elvis Andrus", "Nomar Mazara", "Khris Davis", "Oscar Mercado", "Mallex Smith"],
+        "pitchers": ["Stephen Strasburg", "José Berríos", "Zack Greinke", "Brad Hand", "Dallas Keuchel", "Domingo Germán", "Blake Treinen", "Craig Stammen", "Miles Mikolas", "Ryan Brasier", "Wade Davis", "Rick Porcello"]
+    },
+    "BrianC": {
+        "batters": ["Christian Yelich", "Nolan Arenado", "Tim Anderson", "Yordan Alvarez", "Cavan Biggio", "Ketel Marte", "Matt Olson", "Charlie Blackmon", "Tommy Pham", "Yasmani Grandal", "Joey Gallo", "Yasiel Puig", "Carlos Santana", "Adam Eaton", "Bryan Reynolds"],
+        "pitchers": ["Walker Buehler", "Yu Darvish", "Aaron Nola", "Luis Castillo", "Blake Snell", "Nick Anderson", "Craig Kimbrel", "James Paxton", "Archie Bradley", "Héctor Neris", "Mark Melancon", "Mike Clevinger", "José Leclerc", "Matt Manning", "Reynaldo López", "Carlos Martínez", "Tanner Roark"]
+    },
+    "YoungBrian": {
+        "batters": ["Fernando Tatis", "Manny Machado", "Bryce Harper", "Bo Bichette", "Aaron Judge", "Jose Altuve", "Kris Bryant", "Giancarlo Stanton", "Jonathan Villar", "Eric Hosmer", "Franmil Reyes", "Gary Sánchez", "Victor Robles", "Christian Walker", "Jo Adell", "Eduardo Escobar"],
+        "pitchers": ["Lance Lynn", "Aroldis Chapman", "Max Fried", "Hyun Jin Ryu", "Kyle Hendricks", "Corey Kluber", "Marcus Stroman", "Andrew Miller", "J.A. Happ", "Pedro Báez", "Michael Lorenzen", "Ken Giles", "Adam Ottavino", "Luis Severino", "Forrest Whitley", "José Quintana", "Adam Morgan", "Madison Bumgarner", "Austin Voth"]
+    },
+    "Mike": {
+        "batters": ["Ronald Acuña", "Mookie Betts", "Adalberto Mondesi", "J.T. Realmuto", "Vladimir Guerrero", "Eugenio Suárez", "J.D. Martinez", "Anthony Rizzo", "Rhys Hoskins"],
+        "pitchers": ["Shane Bieber", "Trevor Bauer", "Kenta Maeda", "Dinelson Lamet", "Raisel Iglesias", "Carlos Carrasco", "Ryan Pressly", "Taylor Rogers", "Patrick Corbin", "David Price", "Germán Márquez", "Chris Bassitt", "Matthew Boyd", "Cam Bedrosian", "Brandon Workman", "Trey Wingenter", "Mike Montgomery", "José Alvarado", "Wade Miley", "Mike Foltynewicz", "Alex Young", "Luke Jackson", "Jakob Junis", "Anthony DeSclafani", "Aníbal Sánchez", "Jordan Lyles"]
+    },
+    "Jared": {
+        "batters": ["José Ramírez", "Ozzie Albies", "José Abreu", "Corey Seager", "Keston Hiura", "Javier Báez", "Nick Castellanos", "Paul Goldschmidt", "Willson Contreras", "Michael Brantley", "Trey Mancini", "Josh Donaldson", "Hunter Dozier", "Alex Kirilloff", "Shin-Soo Choo", "Hunter Renfroe", "Abraham Toro"],
+        "pitchers": ["Lucas Giolito", "Tyler Glasnow", "Sonny Gray", "Chris Paddack", "Julio Urías", "Zack Britton", "Shane Greene", "Masahiro Tanaka", "Seth Lugo", "Deivi García", "Yonny Chirinos", "Tommy Kahnle", "Ty Buttrey", "Dellin Betances", "Gio González", "Julio Teheran"]
+    },
+    "Tom": {
+        "batters": ["Juan Soto", "Mike Trout", "Trea Turner", "Eloy Jiménez", "Rafael Devers", "Anthony Rendon", "Pete Alonso", "Luke Voit", "Yoán Moncada", "Michael Conforto", "Max Muncy", "Will Smith", "Ramón Laureano", "Josh Bell", "Miguel Sanó", "Jorge Polanco", "Andrew Benintendi"],
+        "pitchers": ["Gerrit Cole", "Zac Gallen", "Edwin Díaz", "Zack Wheeler", "Ian Anderson", "Rafael Montero", "Kirby Yates", "Ryan Yarbrough", "MacKenzie Gore", "Tyler Duffey", "Chaz Roe", "Scott Oberg", "Colin Poche", "Austin Adams", "Robert Stephenson", "Jeff Samardzija", "Casey Mize", "Asher Wojciechowski", "Steven Matz"]
+    },
+    "Dom": {
+        "batters": ["Xander Bogaerts", "Kyle Tucker", "Whit Merrifield", "Marcell Ozuna", "Matt Chapman", "Marcus Semien", "Didi Gregorius", "Nick Senzel", "Yulieski Gurriel", "Paul DeJong", "Joc Pederson", "Freddy Galvis", "Edwin Encarnación", "Danny Santana", "Robinson Chirinos"],
+        "pitchers": ["Jacob deGrom", "Brandon Woodruff", "Josh Hader", "Zach Plesac", "Liam Hendriks", "Kenley Jansen", "Matt Barnes", "Chris Sale", "Giovanny Gallegos", "Amir Garrett", "Emilio Pagán", "Adbert Alzolay", "Noah Syndergaard", "Will Harris", "Joe Kelly", "James Sherfy", "Cole Hamels", "Steve Cishek", "Jordan Yamamoto"]
+    },
+    "Sam": {
+        "batters": ["Trevor Story", "Cody Bellinger", "Alex Bregman", "Starling Marte", "George Springer", "Gleyber Torres", "Nelson Cruz", "Austin Meadows", "Mike Moustakas", "Jorge Soler", "Gio Urshela", "A.J. Pollock", "Mitch Garver", "Mitch Haniger", "Shohei Ohtani", "Starlin Castro"],
+        "pitchers": ["Max Scherzer", "Jack Flaherty", "Charlie Morton", "Sandy Alcantara", "Alex Colomé", "Justus Sheffield", "Jake Odorizzi", "Mike Minor", "Greg Holland", "Justin Verlander", "Will Smith", "Roberto Osuna", "Sean Doolittle", "Ian Kennedy", "Johnny Cueto", "Robbie Ray"]
+    }
+}
+

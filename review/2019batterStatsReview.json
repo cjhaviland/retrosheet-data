@@ -1,0 +1,90 @@
+{
+  "CJ": {
+    "battingStats": {
+      "runTotal": 1391,
+      "avgRunTotal": 73.21052631578948,
+      "avgRunMean": 3.1413232827046578,
+      "avgRunVariance": 4.496791140530098,
+      "avgRunSkew": 0.9766014270613423,
+      "avgRunStdDev": 2.0943377639711724
+    },
+    "pitchingStat": {}
+  },
+  "BrianC": {
+    "battingStats": {
+      "runTotal": 1271,
+      "avgRunTotal": 84.73333333333333,
+      "avgRunMean": 3.5387615997386273,
+      "avgRunVariance": 4.92040856581221,
+      "avgRunSkew": 0.7162847992158803,
+      "avgRunStdDev": 2.183024506587742
+    },
+    "pitchingStat": {}
+  },
+  "YoungBrian": {
+    "battingStats": {
+      "runTotal": 1132,
+      "avgRunTotal": 70.75,
+      "avgRunMean": 3.1223323292813423,
+      "avgRunVariance": 3.334423035422392,
+      "avgRunSkew": 1.1169969878440273,
+      "avgRunStdDev": 1.7239726163765243
+    },
+    "pitchingStat": {}
+  },
+  "Mike": {
+    "battingStats": {
+      "runTotal": 824,
+      "avgRunTotal": 91.55555555555556,
+      "avgRunMean": 3.5262631267462186,
+      "avgRunVariance": 4.246488308802064,
+      "avgRunSkew": 1.0787893802386557,
+      "avgRunStdDev": 2.012288037647458
+    },
+    "pitchingStat": {}
+  },
+  "Jared": {
+    "battingStats": {
+      "runTotal": 1266,
+      "avgRunTotal": 74.47058823529412,
+      "avgRunMean": 3.052679021508944,
+      "avgRunVariance": 3.718348207395522,
+      "avgRunSkew": 0.4227429468797754,
+      "avgRunStdDev": 1.8465206934220493
+    },
+    "pitchingStat": {}
+  },
+  "Tom": {
+    "battingStats": {
+      "runTotal": 1538,
+      "avgRunTotal": 90.47058823529412,
+      "avgRunMean": 3.680154269335855,
+      "avgRunVariance": 4.613440878380978,
+      "avgRunSkew": 0.4522275138899179,
+      "avgRunStdDev": 2.125659429283316
+    },
+    "pitchingStat": {}
+  },
+  "Dom": {
+    "battingStats": {
+      "runTotal": 1188,
+      "avgRunTotal": 79.2,
+      "avgRunMean": 3.360941663362986,
+      "avgRunVariance": 4.106611519213036,
+      "avgRunSkew": 0.48282499008895585,
+      "avgRunStdDev": 2.0057414706367607
+    },
+    "pitchingStat": {}
+  },
+  "Sam": {
+    "battingStats": {
+      "runTotal": 1339,
+      "avgRunTotal": 83.6875,
+      "avgRunMean": 3.486375122886977,
+      "avgRunVariance": 4.425716842560841,
+      "avgRunSkew": 0.8966253686609302,
+      "avgRunStdDev": 2.0809264889323633
+    },
+    "pitchingStat": {}
+  }
+}

@@ -5,6 +5,8 @@ const csvConvert = require('./helpers/csvConvert')
 const getData = require('./helpers/getData')
 const weeklyReview = require('./review/weekly')
 const consistency = require('./review/consistency')
+const statsReview = require('./review/statsReview')
+const searchBatters = require('./review/searchBatters')
 
 const yearToProcess = '2019'
 // fs.readdir('./data/txt', (err, files) => {
@@ -34,4 +36,6 @@ const yearToProcess = '2019'
 
 // Step 5 - Analyze the data
 // weeklyReview(yearToProcess)
-consistency(yearToProcess)
+// consistency(yearToProcess)
+statsReview(yearToProcess)
+// searchBatters(yearToProcess)
