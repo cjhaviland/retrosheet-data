@@ -41,4 +41,4 @@ const yearToProcess = '2019'
 // consistency(yearToProcess)
 // statsReview(yearToProcess)
 // searchBatters(yearToProcess)
-yahooFantasy()
+yahooFantasy(yearToProcess)
