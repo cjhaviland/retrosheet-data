@@ -9,6 +9,7 @@ const consistency = require('./review/consistency')
 const statsReview = require('./review/statsReview')
 const searchBatters = require('./review/searchBatters')
 const { yahooFantasy } = require('./helpers/yahoo')
+const { yahooWeekly } = require('./helpers/yahooWeekly')
 
 const yearToProcess = '2019'
 // fs.readdir('./data/txt', (err, files) => {
@@ -41,4 +42,5 @@ const yearToProcess = '2019'
 // consistency(yearToProcess)
 // statsReview(yearToProcess)
 // searchBatters(yearToProcess)
-yahooFantasy(yearToProcess)
+// yahooFantasy(yearToProcess)
+yahooWeekly()
