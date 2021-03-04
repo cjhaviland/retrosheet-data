@@ -39,8 +39,8 @@ const yearToProcess = '2019'
 
 // Step 5 - Analyze the data
 // weeklyReview(yearToProcess)
-// consistency(yearToProcess)
+consistency(yearToProcess)
 // statsReview(yearToProcess)
 // searchBatters(yearToProcess)
 // yahooFantasy(yearToProcess)
-yahooWeekly()
+// yahooWeekly()

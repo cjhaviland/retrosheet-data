@@ -9,38 +9,39 @@ function weeklyReview(yearToProcess) {
 
     for (let batterId in batters) {
         const batterObj = batters[batterId]
-        
-        for (let game of batterObj.games) {
-            const playerName = batters[batterId].name
-            
-            if (!batterWeeklyStats[playerName]) {
-                batterWeeklyStats[playerName] = {
+
+        if (batterObj.position != 'P') {
+            for (let game of batterObj.games) {
+                const playerName = batters[batterId].name
+                
+                if (!batterWeeklyStats[playerName]) {
+                    batterWeeklyStats[playerName] = {}
                 }
-            }
-        
-            let week = dayjs(game.gameDate).isoWeek()
-        
-            if (!batterWeeklyStats[playerName][week]) {
-                batterWeeklyStats[playerName][week] = {
-                    "gamesPlayed": 0,
-                    "R": 0,
-                    "HR": 0,
-                    "RBI": 0,
-                    "SB": 0,
-                    "XBH": 0,
-                    "OBP": 0
-                }
-            }
-        
-            let currStats = batterWeeklyStats[playerName][week]
             
-            batterWeeklyStats[playerName][week]['gamesPlayed']++
-            batterWeeklyStats[playerName][week]['R'] = currStats['R'] + game['R']
-            batterWeeklyStats[playerName][week]['HR'] = currStats['HR'] + game['HR']
-            batterWeeklyStats[playerName][week]['RBI'] = currStats['RBI'] + game['RBI']
-            batterWeeklyStats[playerName][week]['SB'] = currStats['SB'] + game['SB']
-            batterWeeklyStats[playerName][week]['XBH'] = currStats['XBH'] + game['XBH']
-            batterWeeklyStats[playerName][week]['OBP'] = currStats['OBP'] + ((game['OBP'] - currStats['OBP']) / batterWeeklyStats[playerName][week]['gamesPlayed'])
+                let week = dayjs(game.gameDate).isoWeek()
+            
+                if (!batterWeeklyStats[playerName][week]) {
+                    batterWeeklyStats[playerName][week] = {
+                        "gamesPlayed": 0,
+                        "R": 0,
+                        "HR": 0,
+                        "RBI": 0,
+                        "SB": 0,
+                        "XBH": 0,
+                        "OBP": 0
+                    }
+                }
+            
+                let currStats = batterWeeklyStats[playerName][week]
+                
+                batterWeeklyStats[playerName][week]['gamesPlayed']++
+                batterWeeklyStats[playerName][week]['R'] = currStats['R'] + game['R']
+                batterWeeklyStats[playerName][week]['HR'] = currStats['HR'] + game['HR']
+                batterWeeklyStats[playerName][week]['RBI'] = currStats['RBI'] + game['RBI']
+                batterWeeklyStats[playerName][week]['SB'] = currStats['SB'] + game['SB']
+                batterWeeklyStats[playerName][week]['XBH'] = currStats['XBH'] + game['XBH']
+                batterWeeklyStats[playerName][week]['OBP'] = currStats['OBP'] + ((game['OBP'] - currStats['OBP']) / batterWeeklyStats[playerName][week]['gamesPlayed'])
+            }
         }
     }
 
