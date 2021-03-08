@@ -4,7 +4,7 @@ const _ = require('lodash')
 let batterResult = {}
 let pitcherResult = {}
 
-const players = JSON.parse(fs.readFileSync(`./data/json/2020_players.json`))
+const players = JSON.parse(fs.readFileSync(`./data/json/2019_players.json`))
 
 function getData(file, yearToProcess) {
     const teamObj = JSON.parse(fs.readFileSync(`./data/json/${yearToProcess}/${file}`))
@@ -105,6 +105,13 @@ function createEntry(player, gameId, isBatter, log) {
 function batterStats(item) {
     let batter = getPlayer(item.resBatter, item.gameId, true)
     let pitcher = getPlayer(item.resPitcher, item.gameId, false)
+
+    // Get Lineup Position
+    batter.gameItem.lineupPosition = item.lineupPosition
+
+    if (item.lineupPosition == 0 || item.lineupPosition == undefined) {
+        console.log(`${item.resBatter} in ${item.gameId} batting ${item.lineupPosition}`)
+    }
     
     // Increment AB`
     if (item.abFlag === 'T') {
@@ -287,7 +294,10 @@ function calcObp(playerGameStats) {
     // AB + BB + HBP + SF
     const num = playerGameStats['H'] + playerGameStats['BB'] + playerGameStats['HBP']
     const den = playerGameStats['AB'] + playerGameStats['BB'] + playerGameStats['HBP'] + playerGameStats['SF']
-    return num / den
+
+    const obp = num / den
+
+    return isNaN(obp) ? 0 : obp
 }
 
 /**
@@ -321,14 +331,14 @@ function calcWhip(player) {
 
 function calcEra(player) {
     let ip = parseInningsPitched(player['IP'])
-
     return ((9 * player['ER']) / ip)
 }
 
 function calcK9(player) {
     let ipParsed = parseInningsPitched(player['IP'])
 
-    return (player['K'] * 9) / ipParsed
+    let kNine = (player['K'] * 9) / ipParsed
+    return isNaN(kNine) ? 0 : kNine
 }
 
 function savesHolds(playerId, pitcher, item) {

@@ -8,7 +8,8 @@ const weeklyReview = require('./review/weekly')
 const consistency = require('./review/consistency')
 const statsReview = require('./review/statsReview')
 const searchBatters = require('./review/searchBatters')
-const { yahooFantasy } = require('./helpers/yahoo')
+const { positionImportance, pitcherImportance } = require('./review/positionImportance')
+// const { yahooFantasy } = require('./helpers/yahoo')
 const { yahooWeekly } = require('./helpers/yahooWeekly')
 
 const yearToProcess = '2019'
@@ -39,8 +40,10 @@ const yearToProcess = '2019'
 
 // Step 5 - Analyze the data
 // weeklyReview(yearToProcess)
-consistency(yearToProcess)
+// consistency(yearToProcess)
 // statsReview(yearToProcess)
 // searchBatters(yearToProcess)
+// positionImportance(yearToProcess)
+pitcherImportance(yearToProcess)
 // yahooFantasy(yearToProcess)
 // yahooWeekly()
